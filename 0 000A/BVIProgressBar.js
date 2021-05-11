@@ -1,0 +1,1 @@
+https://business.facebook.com/creatorstudio/?video_details_explorer=enabled&tab=insights_performance&collection_id=all_pages

@@ -1,0 +1,253 @@
+__d("MWInboxThreadMessages.bs", ["fbt", "LS.bs", "FBID.bs", "bs_curry", "bs_int64", "React", "MWTheme.bs", "bs_caml_obj", "MWLSActor.bs", "SkytaleDB", "bs_caml_int64", "stylex", "setTimeout", "bs_belt_Option", "LSBitOffset.bs", "promiseDone", "LSTransaction.bs", "SkytaleDBExec.bs", "SkytaleDBHook.bs", "SkytaleDBQuery.bs", "LSContextBanner.bs", "MWChatThreadPos.bs", "MWLSQuickReplies.bs", "MWVisibleMessage.bs", "MWChatMessageList.bs", "MWLSMessageParser.bs", "focusScopeQueries", "LSTypingIndicators.bs", "MWLSStartPhoneCall.bs", "MWThread_DEPRECATED.bs", "MWLSMarkThreadAsRead.bs", "MWLSWebUrlCtaHandler.bs", "recoverableViolation", "MWLSFetchMessagesPage.bs", "useVisibilityObserver", "MWLSMessageGroupsParser.bs", "MWMessageElementRefList.bs", "MWLSThreadDisplayContext.bs", "LSMessagingThreadTypeUtil.bs", "MWLSThreadHasMoreMessages.bs", "CometHeroHoldTrigger.react", "MWChatPollXMAActionHandler.bs", "LSThreadCapabilityBitOffset.bs", "MWLSShowPaymentActivityView.bs", "MWChatMessageTableFocusTable.bs", "MWLSLoadOpenThreadMessagesRC.bs", "MWLSCurrentThreadParticipants.bs", "MWLSEnsureInThreadBannerExists.bs", "SkytaleDBQuerySubscriptionHook.bs", "MWChatLoadMoreItemsIncrementally.bs", "MWChatXmaThirdPartyActionHandler.bs", "CometProgressRingIndeterminate.react", "LSMailboxMessagesRangeQueryDirection.bs", "MWChatConversationScroller_DEPRECATED.bs", "LSMailboxMessagePointQueryStoredProcedure"], (function(a, b, c, d, e, f, g) {
+	"use strict";
+	var h, i = b("React"),
+		j = {
+			spacer: {
+				flexBasis: "rj1gh0hx",
+				flexGrow: "buofh1pr"
+			},
+			mask: {
+				backgroundColor: "nred35xi"
+			},
+			spinner: {
+				display: "j83agx80",
+				alignItems: "bp9cbjyn",
+				justifyContent: "taijpn5t",
+				height: "rgmg9uty",
+				flexBasis: "rj1gh0hx",
+				flexGrow: "buofh1pr",
+				flexShrink: "pfnyh3mw",
+				paddingTop: "pybr56ya",
+				paddingBottom: "f10w8fjw"
+			},
+			spinnerPlaceholder: {
+				height: "rgmg9uty",
+				width: "k4urcfbm",
+				backgroundColor: "nred35xi"
+			}
+		},
+		k = g._("Tin nh\u1eafn");
+
+	function a(a) {
+		var c = b("MWThread_DEPRECATED.bs").useIdExn(void 0),
+			d = b("LSMessagingThreadTypeUtil.bs").ofThreadId(c),
+			e = b("MWLSActor.bs").useActor(void 0),
+			f = b("MWLSCurrentThreadParticipants.bs").useMWLSParticipantsMap(void 0),
+			g = b("MWLSMessageGroupsParser.bs").getSeenHeads(f, a, e),
+			h = b("MWLSThreadDisplayContext.bs").useHook(void 0),
+			i = b("MWLSMessageParser.bs").makeParser(e, f, g, h),
+			j = function(c, h, j) {
+				return b("MWLSMessageGroupsParser.bs").parse(a, f, g, e, d, i, c, h, j)
+			};
+		return function(a) {
+			var c = b("bs_curry")._1(j, a);
+			return function(a) {
+				return b("bs_curry")._2(c, a, h)
+			}
+		}
+	}
+
+	function l(a) {
+		a = i.useState(function() {
+			return !1
+		});
+		var c = a[1];
+		a = a[0];
+		var d = b("useVisibilityObserver")({
+			onHidden: function(a) {
+				return b("bs_curry")._1(c, function(a) {
+					return !1
+				})
+			},
+			onVisible: function(a) {
+				return b("bs_curry")._1(c, function(a) {
+					return !0
+				})
+			}
+		});
+		return i.jsxs(i.Fragment, {
+			children: [i.jsx(b("CometHeroHoldTrigger.react"), {
+				description: "MWChatSpinner",
+				hold: a
+			}), i.jsx("div", {
+				children: a ? i.jsx(b("CometProgressRingIndeterminate.react"), {
+					color: "disabled",
+					size: 24
+				}) : i.jsx("div", {
+					className: (h || (h = b("stylex")))(j.spinnerPlaceholder)
+				}),
+				ref: d,
+				className: (h || (h = b("stylex")))(j.spinner, j.mask)
+			})]
+		})
+	}
+	d = {
+		make: l
+	};
+
+	function c(a) {
+		var c = a.thread,
+			d = a.isScrolledToBottomRef,
+			e = a.spacerRef,
+			f = a.changeRepliedToMessage,
+			g = a.buildSharedMediaViewerURL,
+			m = a.scrollerRef;
+		a = b("MWChatThreadPos.bs").useThreadPosition(void 0);
+		b("MWLSEnsureInThreadBannerExists.bs").useHook(void 0);
+		var n = b("MWLSStartPhoneCall.bs").useMakeRTCCall(void 0),
+			o = n[0],
+			p = b("MWLSMarkThreadAsRead.bs").useHook(void 0),
+			q = b("MWLSShowPaymentActivityView.bs").useShowPaymentsDetail(void 0),
+			r = b("MWChatPollXMAActionHandler.bs").useHandler(void 0),
+			s = b("MWLSWebUrlCtaHandler.bs").useShowWebViewDialog(void 0);
+		n = b("MWTheme.bs").useTheme(void 0);
+		var t = i.useRef(b("MWMessageElementRefList.bs").make(void 0)),
+			u = b("MWChatXmaThirdPartyActionHandler.bs").useHandler(void 0),
+			v = b("MWVisibleMessage.bs").useHook(void 0),
+			w = b("SkytaleDBHook.bs").useHook(void 0),
+			x = i.useRef(void 0);
+		i.useEffect(function() {
+			x.current = void 0
+		}, [v]);
+		var y = function(a, c) {
+				var d = m.current;
+				if (!(d == null)) {
+					b("setTimeout")(function(b) {
+						return d.scrollToElement(a, c)
+					}, 0);
+					return
+				}
+			},
+			z = function(a) {
+				if (b("bs_caml_obj").caml_notequal(a, x.current)) return b("bs_curry")._2(t.current.get, a, function(b) {
+					y(b, 100), x.current = a
+				})
+			},
+			A = b("SkytaleDBQuerySubscriptionHook.bs").useFirst(i.useMemo(function() {
+				if (v === void 0) return b("SkytaleDBQuery.bs").getKeyRange(b("SkytaleDB").table(w, "messages_ranges_v2__generated").desc, {
+					hd: c.a,
+					tl: 0
+				});
+				var a = v.timestamp;
+				return b("SkytaleDBQuery.bs").filter(b("SkytaleDBQuery.bs").bounds(b("SkytaleDBQuery.bs").getKeyRange(b("SkytaleDB").table(w, "messages_ranges_v2__generated").desc, {
+					hd: c.a,
+					tl: 0
+				}), {
+					NAME: "lessThanOrEqual",
+					VAL: {
+						hd: a,
+						tl: 0
+					}
+				}), function(c) {
+					if (b("bs_caml_int64").ge(a, c.b)) return b("bs_caml_int64").le(a, c.d);
+					else return !1
+				})
+			}, [w, v, JSON.stringify(c.a)])),
+			B = i.useState(function() {}),
+			C = B[1],
+			D = B[0];
+		i.useEffect(function() {
+			v !== void 0 && D !== void 0 && z(v.messageId)
+		}, [w, v, D, z]);
+		i.useEffect(function() {
+			v !== void 0 ? A !== void 0 && b("bs_curry")._1(C, function(a) {
+				return A
+			}) : b("bs_curry")._1(C, function(a) {})
+		}, [v, A, C]);
+		B = b("MWChatLoadMoreItemsIncrementally.bs").useLoadMoreDefault(void 0, void 0, b("bs_curry")._1(b("MWLSLoadOpenThreadMessagesRC.bs").useMessageItems, D), b("MWLSFetchMessagesPage.bs").useFetchMessagesPage(D), b("MWLSThreadHasMoreMessages.bs").useThreadHasMoreMessages(void 0));
+		var E = B[2],
+			F = B[1];
+		i.useEffect(function() {
+			if (b("bs_belt_Option").isNone(A) && v !== void 0) {
+				var a = v.messageId;
+				b("promiseDone")(b("LSTransaction.bs").run(w, function(d) {
+					return b("LSMailboxMessagePointQueryStoredProcedure")(c.a, a, c.c, b("bs_curry")._1(b("LS.bs").make, d))
+				}, "readWrite"), void 0, void 0)
+			}
+		}, [w, v, A, JSON.stringify(c.a), JSON.stringify(c.c)]);
+		var G = b("SkytaleDBQuerySubscriptionHook.bs").useArray(i.useMemo(function() {
+				return b("SkytaleDBQuery.bs").map(b("SkytaleDBQuery.bs").getKeyRange(b("SkytaleDB").table(w, "typing_indicator").asc, {
+					hd: c.a,
+					tl: 0
+				}), function(a) {
+					return b("SkytaleDBExec.bs").first(b("SkytaleDBQuery.bs").getKeyRange(b("SkytaleDB").table(w, "contacts").asc, {
+						hd: a.b,
+						tl: 0
+					}))
+				})
+			}, [w, JSON.stringify(c.a)])),
+			H = b("LSBitOffset.bs").has(b("LSThreadCapabilityBitOffset.bs").disableContextBanner, c.P);
+		return i.jsxs(b("MWChatConversationScroller_DEPRECATED.bs").make, {
+			children: [!H && !E ? i.jsx(b("LSContextBanner.bs").make, {
+				thread: c
+			}) : E ? i.jsx(l, {}) : null, i.jsx("div", {
+				ref: e,
+				className: (h || (h = b("stylex")))(j.spacer, b("MWTheme.bs").isGradient(n) ? j.mask : !1)
+			}), i.jsx(b("MWChatMessageTableFocusTable.bs").keyCommands, {
+				children: i.jsx(b("MWChatMessageTableFocusTable.bs").Table_.Table.make, {
+					tabScopeQuery: b("focusScopeQueries").tabbableScopeQuery,
+					wrapX: !0,
+					wrapY: !1,
+					children: i.jsx("div", {
+						children: i.jsx(b("MWChatMessageList.bs").make, {
+							pos: a[0],
+							items: B[0],
+							managePageMessagesLink: null,
+							dispatch: function(a) {
+								var d = a.NAME;
+								if (d === "CtaClicked" || d === "CtaButtonRendered") return;
+								if (d === "ShowWebViewDialog") return b("bs_curry")._1(s, a.VAL);
+								if (d === "ClickReplyTo") return b("bs_curry")._1(f, a.VAL);
+								if (d !== "ShowPollDetails")
+									if (d === "P2PPaymentTransactionDetails") return b("bs_curry")._1(q, a.VAL.id);
+									else if (d === "SendCometPostback") {
+									b("recoverableViolation")("Comet Postback received by Lightspeed xma action handler", "messenger_privacy_web");
+									return
+								} else if (d === "ToggleSaveStatus") {
+									b("recoverableViolation")("Toggle Save Status not implemented yet", "messenger_privacy_web");
+									return
+								} else if (d === "MakeRtcCall") return b("bs_curry")._3(o, a.VAL.hasVideo, b("FBID.bs").ofStringExn(b("bs_int64").to_string(c.a)), "admin_message");
+								else return b("bs_curry")._1(u, a);
+								d = a.VAL;
+								return b("bs_curry")._2(r, d[0], d[1])
+							},
+							setCovidSheet: void 0,
+							buildSharedMediaViewerURL: g,
+							messageElementRefs: t.current
+						}),
+						"aria-label": k,
+						role: "grid"
+					})
+				})
+			}), i.jsx(b("LSTypingIndicators.bs").make, {
+				typingContacts: G
+			}), b("LSMessagingThreadTypeUtil.bs").isSecure(c.c) ? null : i.jsx(b("MWLSQuickReplies.bs").make, {})],
+			boundingClientRectRef: a[1],
+			isScrolledToBottomRef: d,
+			dispatch: function(a) {
+				switch (a) {
+					case 0:
+						if (E) return b("bs_curry")._1(F, b("LSMailboxMessagesRangeQueryDirection.bs").before);
+						else return;
+					case 1:
+						if (D !== void 0)
+							if (D.i) return b("bs_curry")._1(F, b("LSMailboxMessagesRangeQueryDirection.bs").after);
+							else return b("bs_curry")._1(p, void 0);
+						else return;
+					case 2:
+						return b("bs_curry")._1(F, b("LSMailboxMessagesRangeQueryDirection.bs").before)
+				}
+			},
+			hasMoreAfter: b("bs_belt_Option").mapWithDefault(D, !1, function(a) {
+				return a.i
+			}),
+			ref: m
+		})
+	}
+	e = c;
+	f.styles = j;
+	f.messagesFbt = k;
+	f.useMessageItems = a;
+	f.LoadingSpinner = d;
+	f.make = e
+}), null);

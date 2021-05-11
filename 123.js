@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["BNunw"]); }
+
+__d("bs_js_null_undefined",["bs_caml_option"],(function(a,b,c,d,e,f){"use strict";function a(a,b){if(a==null)return a;else return b(a)}function c(a,b){if(a==null)return 0;else return b(a)}function d(a){if(a!==void 0)return b("bs_caml_option").valFromOption(a)}e=d;f.bind=a;f.iter=c;f.fromOption=d;f.from_opt=e}),null);
+__d("bs_caml_exceptions",[],(function(a,b,c,d,e,f){"use strict";var g={contents:0};function a(a){a[1]=g.contents;g.contents=g.contents+1;return a}function h(a){g.contents=g.contents+1;return g.contents}function b(a){var b=h(0);a=[a,b];a.tag=248;return a}function c(a){if(a===void 0)return!1;else if(a.tag===248)return!0;else{a=a[0];if(a!==void 0)return a.tag===248;else return!1}}f.caml_set_oo_id=a;f.caml_fresh_oo_id=h;f.create=b;f.caml_is_extension=c}),null);
+__d("BanzaiLogger",["Banzai"],(function(a,b,c,d,e,f){function g(a){return{log:function(c,d){b("Banzai").post("logger:"+c,d,a)},create:g}}a=g();c=a;e.exports=c}),null);

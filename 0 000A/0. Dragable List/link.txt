@@ -1,0 +1,3 @@
+https://www.facebook.com/PageName/settings/?tab=edit_page
+
+https://www.facebook.com/PageName/settings/?tab=page_info

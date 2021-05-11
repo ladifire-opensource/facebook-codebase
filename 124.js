@@ -1,0 +1,8 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ldSk0"]); }
+
+__d("BusinessInboxCommentReactionListClickFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743208");c=b("FalcoLoggerInternal").create("business_inbox_comment_reaction_list_click",a);e.exports=c}),null);
+__d("BusinessInboxCommentReactionListImpressionFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743209");c=b("FalcoLoggerInternal").create("business_inbox_comment_reaction_list_impression",a);e.exports=c}),null);
+__d("BusinessInboxCommentReplyClickFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743210");c=b("FalcoLoggerInternal").create("business_inbox_comment_reply_click",a);e.exports=c}),null);
+__d("BusinessInboxCommentSubmitFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743211");c=b("FalcoLoggerInternal").create("business_inbox_comment_submit",a);e.exports=c}),null);
+__d("BusinessInboxDeleteCommentClickFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743215");c=b("FalcoLoggerInternal").create("business_inbox_delete_comment_click",a);e.exports=c}),null);
+__d("BusinessInboxThreadListUpdateFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743259");c=b("FalcoLoggerInternal").create("business_inbox_thread_list_update",a);e.exports=c}),null);

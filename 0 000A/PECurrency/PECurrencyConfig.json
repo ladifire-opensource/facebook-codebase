@@ -1,0 +1,2042 @@
+{
+    "PECurrencyConfig": {
+        "currency_map_for_render": {
+            "AED": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.إ.",
+                "offset": 100,
+                "screen_name": "Đồng Dirham UAE"
+            },
+            "AFN": {
+                "format": "{symbol}{amount}",
+                "symbol": "؋",
+                "offset": 100,
+                "screen_name": "Đồng Afghani Afghan"
+            },
+            "ALL": {
+                "format": "{amount}{symbol}",
+                "symbol": "Lek",
+                "offset": 100,
+                "screen_name": "Đồng Lek Albani"
+            },
+            "AMD": {
+                "format": "{amount} {symbol}",
+                "symbol": "դր.",
+                "offset": 100,
+                "screen_name": "Đồng Dram Armenia"
+            },
+            "ANG": {
+                "format": "{symbol}{amount}",
+                "symbol": "ƒ",
+                "offset": 100,
+                "screen_name": "Đồng Antillean Guilder Hà Lan"
+            },
+            "AOA": {
+                "format": "{symbol}{amount}",
+                "symbol": "Kz",
+                "offset": 100,
+                "screen_name": "Đồng Kwanza Angola"
+            },
+            "ARS": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đồng Peso Argentina"
+            },
+            "AUD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Úc"
+            },
+            "AWG": {
+                "format": "{symbol}{amount}",
+                "symbol": "Afl.",
+                "offset": 100,
+                "screen_name": "Đồng Florin Aruba"
+            },
+            "AZN": {
+                "format": "{amount} {symbol}",
+                "symbol": "ман.",
+                "offset": 100,
+                "screen_name": "Đồng Manat Azerbaijan"
+            },
+            "BAM": {
+                "format": "{symbol}{amount}",
+                "symbol": "KM",
+                "offset": 100,
+                "screen_name": "Đồng Mark chuyển đổi Bosnia Herzegovina"
+            },
+            "BBD": {
+                "format": "{symbol}{amount}",
+                "symbol": "Bds$",
+                "offset": 100,
+                "screen_name": "Đô la Barbados"
+            },
+            "BDT": {
+                "format": "{symbol}{amount}",
+                "symbol": "৳",
+                "offset": 100,
+                "screen_name": "Đồng Taka Bangladesh"
+            },
+            "BGN": {
+                "format": "{amount} {symbol}",
+                "symbol": "лв.",
+                "offset": 100,
+                "screen_name": "Đồng Lev Bungari"
+            },
+            "BHD": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.ب.",
+                "offset": 100,
+                "screen_name": "Bahraini Dinar"
+            },
+            "BIF": {
+                "format": "{symbol}{amount}",
+                "symbol": "FBu",
+                "offset": 1,
+                "screen_name": "Đồng Franc Burundi"
+            },
+            "BMD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô la Bermudia"
+            },
+            "BND": {
+                "format": "{symbol}{amount}",
+                "symbol": "B$",
+                "offset": 100,
+                "screen_name": "Đô la Brunei"
+            },
+            "BOB": {
+                "format": "{symbol} {amount}",
+                "symbol": "Bs.",
+                "offset": 100,
+                "screen_name": "Đồng Boliviano Bolivia"
+            },
+            "BRL": {
+                "format": "{symbol} {amount}",
+                "symbol": "R$",
+                "offset": 100,
+                "screen_name": "Đồng Real Brazil"
+            },
+            "BSD": {
+                "format": "{symbol}{amount}",
+                "symbol": "B$",
+                "offset": 100,
+                "screen_name": "Đô la Bahamas"
+            },
+            "BTN": {
+                "format": "{symbol}{amount}",
+                "symbol": "Nu.",
+                "offset": 100,
+                "screen_name": "Đồng Ngultrum Bhutan"
+            },
+            "BWP": {
+                "format": "{symbol}{amount}",
+                "symbol": "P",
+                "offset": 100,
+                "screen_name": "Đồng Pula Botswana"
+            },
+            "BYN": {
+                "format": "{amount} {symbol}",
+                "symbol": "Br",
+                "offset": 100,
+                "screen_name": "Đồng Rúp Belarus"
+            },
+            "BZD": {
+                "format": "{symbol}{amount}",
+                "symbol": "BZ$",
+                "offset": 100,
+                "screen_name": "Đô la Belize"
+            },
+            "CAD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Canada"
+            },
+            "CDF": {
+                "format": "{symbol}{amount}",
+                "symbol": "FC",
+                "offset": 100,
+                "screen_name": "Đồng Franc Congo"
+            },
+            "CHF": {
+                "format": "{symbol} {amount}",
+                "symbol": "Fr.",
+                "offset": 100,
+                "screen_name": "Đồng Franc Thụy Sĩ"
+            },
+            "CLF": {
+                "format": "{symbol}{amount}",
+                "symbol": "Eº",
+                "offset": 100,
+                "screen_name": "Đơn vị tính toán Chile"
+            },
+            "CLP": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Peso Chile"
+            },
+            "CNY": {
+                "format": "{symbol}{amount}",
+                "symbol": "¥",
+                "offset": 100,
+                "screen_name": "Đồng Nhân dân tệ Trung Quốc"
+            },
+            "COP": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Peso Colombia"
+            },
+            "CRC": {
+                "format": "{symbol}{amount}",
+                "symbol": "₡",
+                "offset": 1,
+                "screen_name": "Đồng Colón Costa Rica"
+            },
+            "CVE": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Escudo Cape Verde"
+            },
+            "CZK": {
+                "format": "{amount} {symbol}",
+                "symbol": "Kč",
+                "offset": 100,
+                "screen_name": "Đồng Koruna Cộng hòa Séc"
+            },
+            "DJF": {
+                "format": "{symbol}{amount}",
+                "symbol": "Fdj",
+                "offset": 1,
+                "screen_name": "Đồng Franc Djibouti"
+            },
+            "DKK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr.",
+                "offset": 100,
+                "screen_name": "Đồng Krone Đan Mạch"
+            },
+            "DOP": {
+                "format": "{symbol} {amount}",
+                "symbol": "RD$",
+                "offset": 100,
+                "screen_name": "Dominican Peso"
+            },
+            "DZD": {
+                "format": "{amount} {symbol}",
+                "symbol": "DA",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Algeria"
+            },
+            "EGP": {
+                "format": "{symbol} {amount}",
+                "symbol": "ج.م.",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Ai Cập"
+            },
+            "ERN": {
+                "format": "{symbol}{amount}",
+                "symbol": "Nfk",
+                "offset": 100,
+                "screen_name": "Đồng Nakfa Eritrea"
+            },
+            "ETB": {
+                "format": "{symbol}{amount}",
+                "symbol": "Br",
+                "offset": 100,
+                "screen_name": "Đồng Birr Ethiopia"
+            },
+            "EUR": {
+                "format": "{symbol} {amount}",
+                "symbol": "€",
+                "offset": 100,
+                "screen_name": "Đồng Euro"
+            },
+            "FBZ": {
+                "format": "{symbol}{amount}",
+                "symbol": "C",
+                "offset": 100,
+                "screen_name": "tín dụng"
+            },
+            "FJD": {
+                "format": "{symbol}{amount}",
+                "symbol": "FJ$",
+                "offset": 100,
+                "screen_name": "Đô la Fiji"
+            },
+            "FKP": {
+                "format": "{symbol}{amount}",
+                "symbol": "£",
+                "offset": 100,
+                "screen_name": "Bảng Quần đảo Falkland"
+            },
+            "GBP": {
+                "format": "{symbol}{amount}",
+                "symbol": "£",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Anh"
+            },
+            "GEL": {
+                "format": "{amount} {symbol}",
+                "symbol": "₾",
+                "offset": 100,
+                "screen_name": "Đồng Lari Georgia"
+            },
+            "GHS": {
+                "format": "{symbol}{amount}",
+                "symbol": "GHS",
+                "offset": 100,
+                "screen_name": "Đồng Cedi Ghana"
+            },
+            "GIP": {
+                "format": "{symbol}{amount}",
+                "symbol": "£",
+                "offset": 100,
+                "screen_name": "Bảng Gibraltar"
+            },
+            "GMD": {
+                "format": "{symbol}{amount}",
+                "symbol": "D",
+                "offset": 100,
+                "screen_name": "Đồng Dalasi Gambia"
+            },
+            "GNF": {
+                "format": "{symbol}{amount}",
+                "symbol": "FG",
+                "offset": 1,
+                "screen_name": "Đồng Franc Guinea"
+            },
+            "GTQ": {
+                "format": "{symbol}{amount}",
+                "symbol": "Q",
+                "offset": 100,
+                "screen_name": "Đồng Quetzal Guatemala"
+            },
+            "GYD": {
+                "format": "{symbol}{amount}",
+                "symbol": "G$",
+                "offset": 100,
+                "screen_name": "Đô la Guyana"
+            },
+            "HKD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Hồng Kông"
+            },
+            "HNL": {
+                "format": "{symbol} {amount}",
+                "symbol": "L.",
+                "offset": 100,
+                "screen_name": "Đồng Lempira Honduras"
+            },
+            "HRK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kn",
+                "offset": 100,
+                "screen_name": "Đồng Kuna Croatia"
+            },
+            "HTG": {
+                "format": "{symbol}{amount}",
+                "symbol": "G",
+                "offset": 100,
+                "screen_name": "Đồng Gourde Haiti"
+            },
+            "HUF": {
+                "format": "{amount} {symbol}",
+                "symbol": "Ft",
+                "offset": 1,
+                "screen_name": "Đồng Forint Hungary"
+            },
+            "IDR": {
+                "format": "{symbol} {amount}",
+                "symbol": "Rp",
+                "offset": 1,
+                "screen_name": "Đồng Rupiah Indonesia"
+            },
+            "ILS": {
+                "format": "{symbol}{amount}",
+                "symbol": "₪",
+                "offset": 100,
+                "screen_name": "Đồng New Shekel Israel"
+            },
+            "INR": {
+                "format": "{symbol} {amount}",
+                "symbol": "₹",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Ấn Độ"
+            },
+            "IQD": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.ع.",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Iraq"
+            },
+            "ISK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr.",
+                "offset": 1,
+                "screen_name": "Đồng Krona Iceland"
+            },
+            "JMD": {
+                "format": "{symbol}{amount}",
+                "symbol": "J$",
+                "offset": 100,
+                "screen_name": "Đô la Jamaica"
+            },
+            "JOD": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.ا.",
+                "offset": 100,
+                "screen_name": "Đồng  Dinar Jordan"
+            },
+            "JPY": {
+                "format": "{symbol}{amount}",
+                "symbol": "¥",
+                "offset": 1,
+                "screen_name": "Đồng Yên Nhật"
+            },
+            "KES": {
+                "format": "{symbol}{amount}",
+                "symbol": "KSh",
+                "offset": 100,
+                "screen_name": "Đồng Shilling Kenya"
+            },
+            "KGS": {
+                "format": "{amount} {symbol}",
+                "symbol": "сом",
+                "offset": 100,
+                "screen_name": "Đồng Som Kyrgyzstani"
+            },
+            "KHR": {
+                "format": "{symbol}{amount}",
+                "symbol": "៛",
+                "offset": 100,
+                "screen_name": "Đồng Riel Campuchia"
+            },
+            "KMF": {
+                "format": "{symbol}{amount}",
+                "symbol": "CF",
+                "offset": 1,
+                "screen_name": "Đồng Franc Comoro"
+            },
+            "KRW": {
+                "format": "{symbol}{amount}",
+                "symbol": "₩",
+                "offset": 1,
+                "screen_name": "Đồng Won Hàn Quốc"
+            },
+            "KWD": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.ك.",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Kuwait"
+            },
+            "KYD": {
+                "format": "{symbol}{amount}",
+                "symbol": "CI$",
+                "offset": 100,
+                "screen_name": "Đô la Quần đảo Cayman"
+            },
+            "KZT": {
+                "format": "{symbol}{amount}",
+                "symbol": "Т",
+                "offset": 100,
+                "screen_name": "Đồng Tenge Kazakhstan"
+            },
+            "LAK": {
+                "format": "{symbol}{amount}",
+                "symbol": "₭",
+                "offset": 100,
+                "screen_name": "Đồng Kip của Lào"
+            },
+            "LBP": {
+                "format": "{amount} {symbol}",
+                "symbol": "ل.ل.",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Li-băng"
+            },
+            "LKR": {
+                "format": "{symbol}{amount}",
+                "symbol": "Rs",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Sri Lanka"
+            },
+            "LRD": {
+                "format": "{symbol}{amount}",
+                "symbol": "L$",
+                "offset": 100,
+                "screen_name": "Đô la Liberia"
+            },
+            "LSL": {
+                "format": "{symbol}{amount}",
+                "symbol": "M",
+                "offset": 100,
+                "screen_name": "Đồng Loti Lesotho"
+            },
+            "LTL": {
+                "format": "{amount} {symbol}",
+                "symbol": "Lt",
+                "offset": 100,
+                "screen_name": "Đồng Litas Lithuania"
+            },
+            "LVL": {
+                "format": "{symbol} {amount}",
+                "symbol": "Ls",
+                "offset": 100,
+                "screen_name": "Đồng Lats Latvia"
+            },
+            "LYD": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.ل.",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Libya"
+            },
+            "MAD": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.م.",
+                "offset": 100,
+                "screen_name": "Đồng Dirham Maroc"
+            },
+            "MDL": {
+                "format": "{symbol}{amount}",
+                "symbol": "lei",
+                "offset": 100,
+                "screen_name": "Đồng Leu Moldova"
+            },
+            "MGA": {
+                "format": "{symbol}{amount}",
+                "symbol": "Ar",
+                "offset": 5,
+                "screen_name": "Đồng Ariary Malagasy"
+            },
+            "MKD": {
+                "format": "{amount} {symbol}",
+                "symbol": "ден.",
+                "offset": 100,
+                "screen_name": "Đồng Denar Macedonia"
+            },
+            "MMK": {
+                "format": "{symbol}{amount}",
+                "symbol": "Ks",
+                "offset": 100,
+                "screen_name": "Đồng Kyat Miến Điện"
+            },
+            "MNT": {
+                "format": "{amount}{symbol}",
+                "symbol": "₮",
+                "offset": 100,
+                "screen_name": "Đồng Tugrik Mongolia"
+            },
+            "MOP": {
+                "format": "{symbol}{amount}",
+                "symbol": "MOP",
+                "offset": 100,
+                "screen_name": "Đồng Patacas Ma Cao"
+            },
+            "MRO": {
+                "format": "{symbol}{amount}",
+                "symbol": "UM",
+                "offset": 5,
+                "screen_name": "Đồng Ouguiya Mauritania"
+            },
+            "MUR": {
+                "format": "{symbol}{amount}",
+                "symbol": "₨",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Mauritius"
+            },
+            "MVR": {
+                "format": "{symbol}{amount}",
+                "symbol": "ރ.",
+                "offset": 100,
+                "screen_name": "Đồng Rufiyaa Maldives"
+            },
+            "MWK": {
+                "format": "{symbol}{amount}",
+                "symbol": "MK",
+                "offset": 100,
+                "screen_name": "Đồng Kwacha Malawi"
+            },
+            "MXN": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đồng Peso Mexico"
+            },
+            "MYR": {
+                "format": "{symbol}{amount}",
+                "symbol": "RM",
+                "offset": 100,
+                "screen_name": "Đồng Ringgit Malaysia"
+            },
+            "MZN": {
+                "format": "{symbol}{amount}",
+                "symbol": "MT",
+                "offset": 100,
+                "screen_name": "Đồng Metical Mozambique"
+            },
+            "NAD": {
+                "format": "{symbol}{amount}",
+                "symbol": "N$",
+                "offset": 100,
+                "screen_name": "Đô la Namibia"
+            },
+            "NGN": {
+                "format": "{symbol}{amount}",
+                "symbol": "₦",
+                "offset": 100,
+                "screen_name": "Đồng Naira Nigeria"
+            },
+            "NIO": {
+                "format": "{symbol} {amount}",
+                "symbol": "C$",
+                "offset": 100,
+                "screen_name": "Đồng Cordoba Nicaragua"
+            },
+            "NOK": {
+                "format": "{symbol} {amount}",
+                "symbol": "kr",
+                "offset": 100,
+                "screen_name": "Đồng Krone Na Uy"
+            },
+            "NPR": {
+                "format": "{symbol}{amount}",
+                "symbol": "रू",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Nepal"
+            },
+            "NZD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la New Zealand"
+            },
+            "OMR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.ع.",
+                "offset": 100,
+                "screen_name": "Đồng Rial Oman"
+            },
+            "PAB": {
+                "format": "{symbol} {amount}",
+                "symbol": "B/.",
+                "offset": 100,
+                "screen_name": "Đồng Balboas Panama"
+            },
+            "PEN": {
+                "format": "{symbol} {amount}",
+                "symbol": "S/",
+                "offset": 100,
+                "screen_name": "Đồng Nuevo Sol Peru"
+            },
+            "PGK": {
+                "format": "{symbol}{amount}",
+                "symbol": "K",
+                "offset": 100,
+                "screen_name": "Đồng Kina Papua New Guinea"
+            },
+            "PHP": {
+                "format": "{symbol}{amount}",
+                "symbol": "₱",
+                "offset": 100,
+                "screen_name": "Đồng Peso Philippin"
+            },
+            "PKR": {
+                "format": "{symbol}{amount}",
+                "symbol": "Rs",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Pakistan"
+            },
+            "PLN": {
+                "format": "{amount} {symbol}",
+                "symbol": "zł",
+                "offset": 100,
+                "screen_name": "Đồng Zloty Ba Lan"
+            },
+            "PYG": {
+                "format": "{symbol} {amount}",
+                "symbol": "₲",
+                "offset": 1,
+                "screen_name": "Đồng Guarani Paraguay"
+            },
+            "QAR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.ق.",
+                "offset": 100,
+                "screen_name": "Đồng Rials Qatar"
+            },
+            "RON": {
+                "format": "{amount} {symbol}",
+                "symbol": "lei",
+                "offset": 100,
+                "screen_name": "Đồng Leu Romania"
+            },
+            "RSD": {
+                "format": "{symbol}{amount}",
+                "symbol": "din",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Serbia"
+            },
+            "RUB": {
+                "format": "{amount} {symbol}",
+                "symbol": "p.",
+                "offset": 100,
+                "screen_name": "Đồng Rúp Nga"
+            },
+            "RWF": {
+                "format": "{symbol}{amount}",
+                "symbol": "FRw",
+                "offset": 1,
+                "screen_name": "Đồng Franc Rwanda"
+            },
+            "SAR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.س.",
+                "offset": 100,
+                "screen_name": "Đồng Riyal Ả-rập Xê-út"
+            },
+            "SBD": {
+                "format": "{symbol}{amount}",
+                "symbol": "SI$",
+                "offset": 100,
+                "screen_name": "Đô la Quần đảo Solomon"
+            },
+            "SCR": {
+                "format": "{symbol}{amount}",
+                "symbol": "SR",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Seychelles"
+            },
+            "SEK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr",
+                "offset": 100,
+                "screen_name": "Đồng Krona Thụy Điển"
+            },
+            "SGD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Singapore"
+            },
+            "SHP": {
+                "format": "{symbol}{amount}",
+                "symbol": "£",
+                "offset": 100,
+                "screen_name": "Đồng bảng Saint Helena"
+            },
+            "SKK": {
+                "format": "{amount} {symbol}",
+                "symbol": "Sk",
+                "offset": 100,
+                "screen_name": "Đồng Koruna Slovak"
+            },
+            "SLL": {
+                "format": "{symbol}{amount}",
+                "symbol": "Le",
+                "offset": 100,
+                "screen_name": "Đồng Leone Sierra Leone"
+            },
+            "SOS": {
+                "format": "{symbol}{amount}",
+                "symbol": "S",
+                "offset": 100,
+                "screen_name": "Đồng Shilling Somali"
+            },
+            "SRD": {
+                "format": "{symbol}{amount}",
+                "symbol": "SRD",
+                "offset": 100,
+                "screen_name": "Đô la Suriname"
+            },
+            "SSP": {
+                "format": "{symbol}{amount}",
+                "symbol": "£",
+                "offset": 100,
+                "screen_name": "Bảng Nam Sudan"
+            },
+            "STD": {
+                "format": "{symbol}{amount}",
+                "symbol": "Db",
+                "offset": 100,
+                "screen_name": "Đồng Dobra Sao Tome và Principe"
+            },
+            "SVC": {
+                "format": "{symbol}{amount}",
+                "symbol": "₡",
+                "offset": 100,
+                "screen_name": "Đồng Colón Salvador"
+            },
+            "SZL": {
+                "format": "{symbol}{amount}",
+                "symbol": "L",
+                "offset": 100,
+                "screen_name": "Đồng Lilangeni Swaziland"
+            },
+            "THB": {
+                "format": "{symbol}{amount}",
+                "symbol": "฿",
+                "offset": 100,
+                "screen_name": "Đồng Baht Thái"
+            },
+            "TJS": {
+                "format": "{symbol}{amount}",
+                "symbol": "с.",
+                "offset": 100,
+                "screen_name": "Đồng Somoni Tajikistan"
+            },
+            "TMT": {
+                "format": "{symbol}{amount}",
+                "symbol": "T",
+                "offset": 100,
+                "screen_name": "Đồng Manat Turkmenistan"
+            },
+            "TND": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.ت.",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Tunisia"
+            },
+            "TOP": {
+                "format": "{symbol}{amount}",
+                "symbol": "T$",
+                "offset": 100,
+                "screen_name": "Đồng Paʻanga Tongan"
+            },
+            "TRY": {
+                "format": "{amount} {symbol}",
+                "symbol": "TL",
+                "offset": 100,
+                "screen_name": "Đồng Lira Thổ Nhĩ Kỳ"
+            },
+            "TTD": {
+                "format": "{symbol}{amount}",
+                "symbol": "TT$",
+                "offset": 100,
+                "screen_name": "Đô la Trinidad và Tobago"
+            },
+            "TWD": {
+                "format": "{symbol}{amount}",
+                "symbol": "NT$",
+                "offset": 1,
+                "screen_name": "Đô-la Đài Loan"
+            },
+            "TZS": {
+                "format": "{symbol}{amount}",
+                "symbol": "TSh",
+                "offset": 100,
+                "screen_name": "Đồng Shilling Tanzania"
+            },
+            "UAH": {
+                "format": "{amount} {symbol}",
+                "symbol": "грн.",
+                "offset": 100,
+                "screen_name": "Đồng Hryvnia Ukraina"
+            },
+            "UGX": {
+                "format": "{symbol}{amount}",
+                "symbol": "USh",
+                "offset": 1,
+                "screen_name": "Đồng Shilling Uganda"
+            },
+            "USD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô la Mỹ"
+            },
+            "UYU": {
+                "format": "{symbol} {amount}",
+                "symbol": "$U",
+                "offset": 100,
+                "screen_name": "Đồng Peso Uruguay"
+            },
+            "UZS": {
+                "format": "{amount} {symbol}",
+                "symbol": "сўм",
+                "offset": 100,
+                "screen_name": "Đồng Som Uzbekistan"
+            },
+            "VEF": {
+                "format": "{symbol} {amount}",
+                "symbol": "Bs.F",
+                "offset": 100,
+                "screen_name": "Đồng Bolivar Venezuela"
+            },
+            "VES": {
+                "format": "{symbol} {amount}",
+                "symbol": "Bs.S",
+                "offset": 100,
+                "screen_name": "Đồng Sovereign Bolivar Venezuela"
+            },
+            "VND": {
+                "format": "{amount} {symbol}",
+                "symbol": "₫",
+                "offset": 1,
+                "screen_name": "Đồng Việt Nam"
+            },
+            "VUV": {
+                "format": "{symbol}{amount}",
+                "symbol": "VT",
+                "offset": 1,
+                "screen_name": "Đồng Vatu Vanuatu"
+            },
+            "WST": {
+                "format": "{symbol}{amount}",
+                "symbol": "WS$",
+                "offset": 100,
+                "screen_name": "Đồng Tala Samoa"
+            },
+            "XAF": {
+                "format": "{symbol}{amount}",
+                "symbol": "FCFA",
+                "offset": 1,
+                "screen_name": "Đồng Frank Trung Phi"
+            },
+            "XCD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô la Đông Caribê"
+            },
+            "XOF": {
+                "format": "{symbol}{amount}",
+                "symbol": "FCFA",
+                "offset": 1,
+                "screen_name": "Đồng Frank Tây Phi"
+            },
+            "XPF": {
+                "format": "{symbol}{amount}",
+                "symbol": "₣",
+                "offset": 1,
+                "screen_name": "Đồng Franc CFP"
+            },
+            "YER": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.ي.",
+                "offset": 100,
+                "screen_name": "Đồng Rial Yemen"
+            },
+            "ZAR": {
+                "format": "{symbol} {amount}",
+                "symbol": "R",
+                "offset": 100,
+                "screen_name": "Đồng Rand Nam Phi"
+            },
+            "ZMW": {
+                "format": "{symbol}{amount}",
+                "symbol": "K",
+                "offset": 100,
+                "screen_name": "Đồng Kwacha Zambia"
+            },
+            "ZWL": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô la Zimbabwe"
+            }
+        },
+        "currency_map_for_cc": {
+            "AED": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.إ.",
+                "offset": 100,
+                "screen_name": "Đồng Dirham UAE"
+            },
+            "ARS": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đồng Peso Argentina"
+            },
+            "AUD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Úc"
+            },
+            "BDT": {
+                "format": "{symbol}{amount}",
+                "symbol": "৳",
+                "offset": 100,
+                "screen_name": "Đồng Taka Bangladesh"
+            },
+            "BOB": {
+                "format": "{symbol} {amount}",
+                "symbol": "Bs.",
+                "offset": 100,
+                "screen_name": "Đồng Boliviano Bolivia"
+            },
+            "BRL": {
+                "format": "{symbol} {amount}",
+                "symbol": "R$",
+                "offset": 100,
+                "screen_name": "Đồng Real Brazil"
+            },
+            "CAD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Canada"
+            },
+            "CHF": {
+                "format": "{symbol} {amount}",
+                "symbol": "Fr.",
+                "offset": 100,
+                "screen_name": "Đồng Franc Thụy Sĩ"
+            },
+            "CLP": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Peso Chile"
+            },
+            "CNY": {
+                "format": "{symbol}{amount}",
+                "symbol": "¥",
+                "offset": 100,
+                "screen_name": "Đồng Nhân dân tệ Trung Quốc"
+            },
+            "COP": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Peso Colombia"
+            },
+            "CRC": {
+                "format": "{symbol}{amount}",
+                "symbol": "₡",
+                "offset": 1,
+                "screen_name": "Đồng Colón Costa Rica"
+            },
+            "CZK": {
+                "format": "{amount} {symbol}",
+                "symbol": "Kč",
+                "offset": 100,
+                "screen_name": "Đồng Koruna Cộng hòa Séc"
+            },
+            "DKK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr.",
+                "offset": 100,
+                "screen_name": "Đồng Krone Đan Mạch"
+            },
+            "DZD": {
+                "format": "{amount} {symbol}",
+                "symbol": "DA",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Algeria"
+            },
+            "EGP": {
+                "format": "{symbol} {amount}",
+                "symbol": "ج.م.",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Ai Cập"
+            },
+            "EUR": {
+                "format": "{symbol} {amount}",
+                "symbol": "€",
+                "offset": 100,
+                "screen_name": "Đồng Euro"
+            },
+            "GBP": {
+                "format": "{symbol}{amount}",
+                "symbol": "£",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Anh"
+            },
+            "GTQ": {
+                "format": "{symbol}{amount}",
+                "symbol": "Q",
+                "offset": 100,
+                "screen_name": "Đồng Quetzal Guatemala"
+            },
+            "HKD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Hồng Kông"
+            },
+            "HNL": {
+                "format": "{symbol} {amount}",
+                "symbol": "L.",
+                "offset": 100,
+                "screen_name": "Đồng Lempira Honduras"
+            },
+            "HUF": {
+                "format": "{amount} {symbol}",
+                "symbol": "Ft",
+                "offset": 1,
+                "screen_name": "Đồng Forint Hungary"
+            },
+            "IDR": {
+                "format": "{symbol} {amount}",
+                "symbol": "Rp",
+                "offset": 1,
+                "screen_name": "Đồng Rupiah Indonesia"
+            },
+            "ILS": {
+                "format": "{symbol}{amount}",
+                "symbol": "₪",
+                "offset": 100,
+                "screen_name": "Đồng New Shekel Israel"
+            },
+            "INR": {
+                "format": "{symbol} {amount}",
+                "symbol": "₹",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Ấn Độ"
+            },
+            "ISK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr.",
+                "offset": 1,
+                "screen_name": "Đồng Krona Iceland"
+            },
+            "JPY": {
+                "format": "{symbol}{amount}",
+                "symbol": "¥",
+                "offset": 1,
+                "screen_name": "Đồng Yên Nhật"
+            },
+            "KES": {
+                "format": "{symbol}{amount}",
+                "symbol": "KSh",
+                "offset": 100,
+                "screen_name": "Đồng Shilling Kenya"
+            },
+            "KRW": {
+                "format": "{symbol}{amount}",
+                "symbol": "₩",
+                "offset": 1,
+                "screen_name": "Đồng Won Hàn Quốc"
+            },
+            "MOP": {
+                "format": "{symbol}{amount}",
+                "symbol": "MOP",
+                "offset": 100,
+                "screen_name": "Đồng Patacas Ma Cao"
+            },
+            "MXN": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đồng Peso Mexico"
+            },
+            "MYR": {
+                "format": "{symbol}{amount}",
+                "symbol": "RM",
+                "offset": 100,
+                "screen_name": "Đồng Ringgit Malaysia"
+            },
+            "NGN": {
+                "format": "{symbol}{amount}",
+                "symbol": "₦",
+                "offset": 100,
+                "screen_name": "Đồng Naira Nigeria"
+            },
+            "NIO": {
+                "format": "{symbol} {amount}",
+                "symbol": "C$",
+                "offset": 100,
+                "screen_name": "Đồng Cordoba Nicaragua"
+            },
+            "NOK": {
+                "format": "{symbol} {amount}",
+                "symbol": "kr",
+                "offset": 100,
+                "screen_name": "Đồng Krone Na Uy"
+            },
+            "NZD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la New Zealand"
+            },
+            "PEN": {
+                "format": "{symbol} {amount}",
+                "symbol": "S/",
+                "offset": 100,
+                "screen_name": "Đồng Nuevo Sol Peru"
+            },
+            "PHP": {
+                "format": "{symbol}{amount}",
+                "symbol": "₱",
+                "offset": 100,
+                "screen_name": "Đồng Peso Philippin"
+            },
+            "PKR": {
+                "format": "{symbol}{amount}",
+                "symbol": "Rs",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Pakistan"
+            },
+            "PLN": {
+                "format": "{amount} {symbol}",
+                "symbol": "zł",
+                "offset": 100,
+                "screen_name": "Đồng Zloty Ba Lan"
+            },
+            "PYG": {
+                "format": "{symbol} {amount}",
+                "symbol": "₲",
+                "offset": 1,
+                "screen_name": "Đồng Guarani Paraguay"
+            },
+            "QAR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.ق.",
+                "offset": 100,
+                "screen_name": "Đồng Rials Qatar"
+            },
+            "RON": {
+                "format": "{amount} {symbol}",
+                "symbol": "lei",
+                "offset": 100,
+                "screen_name": "Đồng Leu Romania"
+            },
+            "RUB": {
+                "format": "{amount} {symbol}",
+                "symbol": "p.",
+                "offset": 100,
+                "screen_name": "Đồng Rúp Nga"
+            },
+            "SAR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.س.",
+                "offset": 100,
+                "screen_name": "Đồng Riyal Ả-rập Xê-út"
+            },
+            "SEK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr",
+                "offset": 100,
+                "screen_name": "Đồng Krona Thụy Điển"
+            },
+            "SGD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Singapore"
+            },
+            "THB": {
+                "format": "{symbol}{amount}",
+                "symbol": "฿",
+                "offset": 100,
+                "screen_name": "Đồng Baht Thái"
+            },
+            "TRY": {
+                "format": "{amount} {symbol}",
+                "symbol": "TL",
+                "offset": 100,
+                "screen_name": "Đồng Lira Thổ Nhĩ Kỳ"
+            },
+            "TWD": {
+                "format": "{symbol}{amount}",
+                "symbol": "NT$",
+                "offset": 1,
+                "screen_name": "Đô-la Đài Loan"
+            },
+            "USD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô la Mỹ"
+            },
+            "UYU": {
+                "format": "{symbol} {amount}",
+                "symbol": "$U",
+                "offset": 100,
+                "screen_name": "Đồng Peso Uruguay"
+            },
+            "VND": {
+                "format": "{amount} {symbol}",
+                "symbol": "₫",
+                "offset": 1,
+                "screen_name": "Đồng Việt Nam"
+            },
+            "ZAR": {
+                "format": "{symbol} {amount}",
+                "symbol": "R",
+                "offset": 100,
+                "screen_name": "Đồng Rand Nam Phi"
+            }
+        },
+        "currency_map_for_ads": {
+            "AED": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.إ.",
+                "offset": 100,
+                "screen_name": "Đồng Dirham UAE"
+            },
+            "ARS": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đồng Peso Argentina"
+            },
+            "AUD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Úc"
+            },
+            "BDT": {
+                "format": "{symbol}{amount}",
+                "symbol": "৳",
+                "offset": 100,
+                "screen_name": "Đồng Taka Bangladesh"
+            },
+            "BOB": {
+                "format": "{symbol} {amount}",
+                "symbol": "Bs.",
+                "offset": 100,
+                "screen_name": "Đồng Boliviano Bolivia"
+            },
+            "BRL": {
+                "format": "{symbol} {amount}",
+                "symbol": "R$",
+                "offset": 100,
+                "screen_name": "Đồng Real Brazil"
+            },
+            "CAD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Canada"
+            },
+            "CHF": {
+                "format": "{symbol} {amount}",
+                "symbol": "Fr.",
+                "offset": 100,
+                "screen_name": "Đồng Franc Thụy Sĩ"
+            },
+            "CLP": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Peso Chile"
+            },
+            "CNY": {
+                "format": "{symbol}{amount}",
+                "symbol": "¥",
+                "offset": 100,
+                "screen_name": "Đồng Nhân dân tệ Trung Quốc"
+            },
+            "COP": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Peso Colombia"
+            },
+            "CRC": {
+                "format": "{symbol}{amount}",
+                "symbol": "₡",
+                "offset": 1,
+                "screen_name": "Đồng Colón Costa Rica"
+            },
+            "CZK": {
+                "format": "{amount} {symbol}",
+                "symbol": "Kč",
+                "offset": 100,
+                "screen_name": "Đồng Koruna Cộng hòa Séc"
+            },
+            "DKK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr.",
+                "offset": 100,
+                "screen_name": "Đồng Krone Đan Mạch"
+            },
+            "DZD": {
+                "format": "{amount} {symbol}",
+                "symbol": "DA",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Algeria"
+            },
+            "EGP": {
+                "format": "{symbol} {amount}",
+                "symbol": "ج.م.",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Ai Cập"
+            },
+            "EUR": {
+                "format": "{symbol} {amount}",
+                "symbol": "€",
+                "offset": 100,
+                "screen_name": "Đồng Euro"
+            },
+            "GBP": {
+                "format": "{symbol}{amount}",
+                "symbol": "£",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Anh"
+            },
+            "GTQ": {
+                "format": "{symbol}{amount}",
+                "symbol": "Q",
+                "offset": 100,
+                "screen_name": "Đồng Quetzal Guatemala"
+            },
+            "HKD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Hồng Kông"
+            },
+            "HNL": {
+                "format": "{symbol} {amount}",
+                "symbol": "L.",
+                "offset": 100,
+                "screen_name": "Đồng Lempira Honduras"
+            },
+            "HUF": {
+                "format": "{amount} {symbol}",
+                "symbol": "Ft",
+                "offset": 1,
+                "screen_name": "Đồng Forint Hungary"
+            },
+            "IDR": {
+                "format": "{symbol} {amount}",
+                "symbol": "Rp",
+                "offset": 1,
+                "screen_name": "Đồng Rupiah Indonesia"
+            },
+            "ILS": {
+                "format": "{symbol}{amount}",
+                "symbol": "₪",
+                "offset": 100,
+                "screen_name": "Đồng New Shekel Israel"
+            },
+            "INR": {
+                "format": "{symbol} {amount}",
+                "symbol": "₹",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Ấn Độ"
+            },
+            "ISK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr.",
+                "offset": 1,
+                "screen_name": "Đồng Krona Iceland"
+            },
+            "JPY": {
+                "format": "{symbol}{amount}",
+                "symbol": "¥",
+                "offset": 1,
+                "screen_name": "Đồng Yên Nhật"
+            },
+            "KES": {
+                "format": "{symbol}{amount}",
+                "symbol": "KSh",
+                "offset": 100,
+                "screen_name": "Đồng Shilling Kenya"
+            },
+            "KRW": {
+                "format": "{symbol}{amount}",
+                "symbol": "₩",
+                "offset": 1,
+                "screen_name": "Đồng Won Hàn Quốc"
+            },
+            "MOP": {
+                "format": "{symbol}{amount}",
+                "symbol": "MOP",
+                "offset": 100,
+                "screen_name": "Đồng Patacas Ma Cao"
+            },
+            "MXN": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đồng Peso Mexico"
+            },
+            "MYR": {
+                "format": "{symbol}{amount}",
+                "symbol": "RM",
+                "offset": 100,
+                "screen_name": "Đồng Ringgit Malaysia"
+            },
+            "NGN": {
+                "format": "{symbol}{amount}",
+                "symbol": "₦",
+                "offset": 100,
+                "screen_name": "Đồng Naira Nigeria"
+            },
+            "NIO": {
+                "format": "{symbol} {amount}",
+                "symbol": "C$",
+                "offset": 100,
+                "screen_name": "Đồng Cordoba Nicaragua"
+            },
+            "NOK": {
+                "format": "{symbol} {amount}",
+                "symbol": "kr",
+                "offset": 100,
+                "screen_name": "Đồng Krone Na Uy"
+            },
+            "NZD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la New Zealand"
+            },
+            "PEN": {
+                "format": "{symbol} {amount}",
+                "symbol": "S/",
+                "offset": 100,
+                "screen_name": "Đồng Nuevo Sol Peru"
+            },
+            "PHP": {
+                "format": "{symbol}{amount}",
+                "symbol": "₱",
+                "offset": 100,
+                "screen_name": "Đồng Peso Philippin"
+            },
+            "PKR": {
+                "format": "{symbol}{amount}",
+                "symbol": "Rs",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Pakistan"
+            },
+            "PLN": {
+                "format": "{amount} {symbol}",
+                "symbol": "zł",
+                "offset": 100,
+                "screen_name": "Đồng Zloty Ba Lan"
+            },
+            "PYG": {
+                "format": "{symbol} {amount}",
+                "symbol": "₲",
+                "offset": 1,
+                "screen_name": "Đồng Guarani Paraguay"
+            },
+            "QAR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.ق.",
+                "offset": 100,
+                "screen_name": "Đồng Rials Qatar"
+            },
+            "RON": {
+                "format": "{amount} {symbol}",
+                "symbol": "lei",
+                "offset": 100,
+                "screen_name": "Đồng Leu Romania"
+            },
+            "RUB": {
+                "format": "{amount} {symbol}",
+                "symbol": "p.",
+                "offset": 100,
+                "screen_name": "Đồng Rúp Nga"
+            },
+            "SAR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.س.",
+                "offset": 100,
+                "screen_name": "Đồng Riyal Ả-rập Xê-út"
+            },
+            "SEK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr",
+                "offset": 100,
+                "screen_name": "Đồng Krona Thụy Điển"
+            },
+            "SGD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Singapore"
+            },
+            "THB": {
+                "format": "{symbol}{amount}",
+                "symbol": "฿",
+                "offset": 100,
+                "screen_name": "Đồng Baht Thái"
+            },
+            "TRY": {
+                "format": "{amount} {symbol}",
+                "symbol": "TL",
+                "offset": 100,
+                "screen_name": "Đồng Lira Thổ Nhĩ Kỳ"
+            },
+            "TWD": {
+                "format": "{symbol}{amount}",
+                "symbol": "NT$",
+                "offset": 1,
+                "screen_name": "Đô-la Đài Loan"
+            },
+            "USD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô la Mỹ"
+            },
+            "UYU": {
+                "format": "{symbol} {amount}",
+                "symbol": "$U",
+                "offset": 100,
+                "screen_name": "Đồng Peso Uruguay"
+            },
+            "VND": {
+                "format": "{amount} {symbol}",
+                "symbol": "₫",
+                "offset": 1,
+                "screen_name": "Đồng Việt Nam"
+            },
+            "ZAR": {
+                "format": "{symbol} {amount}",
+                "symbol": "R",
+                "offset": 100,
+                "screen_name": "Đồng Rand Nam Phi"
+            }
+        },
+        "currency_map_for_ads_backend": {
+            "AED": {
+                "format": "{amount} {symbol}",
+                "symbol": "د.إ.",
+                "offset": 100,
+                "screen_name": "Đồng Dirham UAE"
+            },
+            "ARS": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đồng Peso Argentina"
+            },
+            "AUD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Úc"
+            },
+            "BDT": {
+                "format": "{symbol}{amount}",
+                "symbol": "৳",
+                "offset": 100,
+                "screen_name": "Đồng Taka Bangladesh"
+            },
+            "BOB": {
+                "format": "{symbol} {amount}",
+                "symbol": "Bs.",
+                "offset": 100,
+                "screen_name": "Đồng Boliviano Bolivia"
+            },
+            "BRL": {
+                "format": "{symbol} {amount}",
+                "symbol": "R$",
+                "offset": 100,
+                "screen_name": "Đồng Real Brazil"
+            },
+            "CAD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Canada"
+            },
+            "CHF": {
+                "format": "{symbol} {amount}",
+                "symbol": "Fr.",
+                "offset": 100,
+                "screen_name": "Đồng Franc Thụy Sĩ"
+            },
+            "CLP": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Peso Chile"
+            },
+            "CNY": {
+                "format": "{symbol}{amount}",
+                "symbol": "¥",
+                "offset": 100,
+                "screen_name": "Đồng Nhân dân tệ Trung Quốc"
+            },
+            "COP": {
+                "format": "{symbol} {amount}",
+                "symbol": "$",
+                "offset": 1,
+                "screen_name": "Đồng Peso Colombia"
+            },
+            "CRC": {
+                "format": "{symbol}{amount}",
+                "symbol": "₡",
+                "offset": 1,
+                "screen_name": "Đồng Colón Costa Rica"
+            },
+            "CZK": {
+                "format": "{amount} {symbol}",
+                "symbol": "Kč",
+                "offset": 100,
+                "screen_name": "Đồng Koruna Cộng hòa Séc"
+            },
+            "DKK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr.",
+                "offset": 100,
+                "screen_name": "Đồng Krone Đan Mạch"
+            },
+            "DZD": {
+                "format": "{amount} {symbol}",
+                "symbol": "DA",
+                "offset": 100,
+                "screen_name": "Đồng Dinar Algeria"
+            },
+            "EGP": {
+                "format": "{symbol} {amount}",
+                "symbol": "ج.م.",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Ai Cập"
+            },
+            "EUR": {
+                "format": "{symbol} {amount}",
+                "symbol": "€",
+                "offset": 100,
+                "screen_name": "Đồng Euro"
+            },
+            "GBP": {
+                "format": "{symbol}{amount}",
+                "symbol": "£",
+                "offset": 100,
+                "screen_name": "Đồng Bảng Anh"
+            },
+            "GTQ": {
+                "format": "{symbol}{amount}",
+                "symbol": "Q",
+                "offset": 100,
+                "screen_name": "Đồng Quetzal Guatemala"
+            },
+            "HKD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Hồng Kông"
+            },
+            "HNL": {
+                "format": "{symbol} {amount}",
+                "symbol": "L.",
+                "offset": 100,
+                "screen_name": "Đồng Lempira Honduras"
+            },
+            "HUF": {
+                "format": "{amount} {symbol}",
+                "symbol": "Ft",
+                "offset": 1,
+                "screen_name": "Đồng Forint Hungary"
+            },
+            "IDR": {
+                "format": "{symbol} {amount}",
+                "symbol": "Rp",
+                "offset": 1,
+                "screen_name": "Đồng Rupiah Indonesia"
+            },
+            "ILS": {
+                "format": "{symbol}{amount}",
+                "symbol": "₪",
+                "offset": 100,
+                "screen_name": "Đồng New Shekel Israel"
+            },
+            "INR": {
+                "format": "{symbol} {amount}",
+                "symbol": "₹",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Ấn Độ"
+            },
+            "ISK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr.",
+                "offset": 1,
+                "screen_name": "Đồng Krona Iceland"
+            },
+            "JPY": {
+                "format": "{symbol}{amount}",
+                "symbol": "¥",
+                "offset": 1,
+                "screen_name": "Đồng Yên Nhật"
+            },
+            "KES": {
+                "format": "{symbol}{amount}",
+                "symbol": "KSh",
+                "offset": 100,
+                "screen_name": "Đồng Shilling Kenya"
+            },
+            "KRW": {
+                "format": "{symbol}{amount}",
+                "symbol": "₩",
+                "offset": 1,
+                "screen_name": "Đồng Won Hàn Quốc"
+            },
+            "MOP": {
+                "format": "{symbol}{amount}",
+                "symbol": "MOP",
+                "offset": 100,
+                "screen_name": "Đồng Patacas Ma Cao"
+            },
+            "MXN": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đồng Peso Mexico"
+            },
+            "MYR": {
+                "format": "{symbol}{amount}",
+                "symbol": "RM",
+                "offset": 100,
+                "screen_name": "Đồng Ringgit Malaysia"
+            },
+            "NGN": {
+                "format": "{symbol}{amount}",
+                "symbol": "₦",
+                "offset": 100,
+                "screen_name": "Đồng Naira Nigeria"
+            },
+            "NIO": {
+                "format": "{symbol} {amount}",
+                "symbol": "C$",
+                "offset": 100,
+                "screen_name": "Đồng Cordoba Nicaragua"
+            },
+            "NOK": {
+                "format": "{symbol} {amount}",
+                "symbol": "kr",
+                "offset": 100,
+                "screen_name": "Đồng Krone Na Uy"
+            },
+            "NZD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la New Zealand"
+            },
+            "PEN": {
+                "format": "{symbol} {amount}",
+                "symbol": "S/",
+                "offset": 100,
+                "screen_name": "Đồng Nuevo Sol Peru"
+            },
+            "PHP": {
+                "format": "{symbol}{amount}",
+                "symbol": "₱",
+                "offset": 100,
+                "screen_name": "Đồng Peso Philippin"
+            },
+            "PKR": {
+                "format": "{symbol}{amount}",
+                "symbol": "Rs",
+                "offset": 100,
+                "screen_name": "Đồng Rupee Pakistan"
+            },
+            "PLN": {
+                "format": "{amount} {symbol}",
+                "symbol": "zł",
+                "offset": 100,
+                "screen_name": "Đồng Zloty Ba Lan"
+            },
+            "PYG": {
+                "format": "{symbol} {amount}",
+                "symbol": "₲",
+                "offset": 1,
+                "screen_name": "Đồng Guarani Paraguay"
+            },
+            "QAR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.ق.",
+                "offset": 100,
+                "screen_name": "Đồng Rials Qatar"
+            },
+            "RON": {
+                "format": "{amount} {symbol}",
+                "symbol": "lei",
+                "offset": 100,
+                "screen_name": "Đồng Leu Romania"
+            },
+            "RUB": {
+                "format": "{amount} {symbol}",
+                "symbol": "p.",
+                "offset": 100,
+                "screen_name": "Đồng Rúp Nga"
+            },
+            "SAR": {
+                "format": "{amount} {symbol}",
+                "symbol": "ر.س.",
+                "offset": 100,
+                "screen_name": "Đồng Riyal Ả-rập Xê-út"
+            },
+            "SEK": {
+                "format": "{amount} {symbol}",
+                "symbol": "kr",
+                "offset": 100,
+                "screen_name": "Đồng Krona Thụy Điển"
+            },
+            "SGD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô-la Singapore"
+            },
+            "THB": {
+                "format": "{symbol}{amount}",
+                "symbol": "฿",
+                "offset": 100,
+                "screen_name": "Đồng Baht Thái"
+            },
+            "TRY": {
+                "format": "{amount} {symbol}",
+                "symbol": "TL",
+                "offset": 100,
+                "screen_name": "Đồng Lira Thổ Nhĩ Kỳ"
+            },
+            "TWD": {
+                "format": "{symbol}{amount}",
+                "symbol": "NT$",
+                "offset": 1,
+                "screen_name": "Đô-la Đài Loan"
+            },
+            "UAH": {
+                "format": "{amount} {symbol}",
+                "symbol": "грн.",
+                "offset": 100,
+                "screen_name": "Đồng Hryvnia Ukraina"
+            },
+            "USD": {
+                "format": "{symbol}{amount}",
+                "symbol": "$",
+                "offset": 100,
+                "screen_name": "Đô la Mỹ"
+            },
+            "UYU": {
+                "format": "{symbol} {amount}",
+                "symbol": "$U",
+                "offset": 100,
+                "screen_name": "Đồng Peso Uruguay"
+            },
+            "VND": {
+                "format": "{amount} {symbol}",
+                "symbol": "₫",
+                "offset": 1,
+                "screen_name": "Đồng Việt Nam"
+            },
+            "ZAR": {
+                "format": "{symbol} {amount}",
+                "symbol": "R",
+                "offset": 100,
+                "screen_name": "Đồng Rand Nam Phi"
+            }
+        },
+        "currency_locale_format": {
+            "AE": "{amount} {symbol}",
+            "AL": "{amount}{symbol}",
+            "AM": "{amount} {symbol}",
+            "AR": "{symbol} {amount}",
+            "AT": "{symbol} {amount}",
+            "AU": "{symbol}{amount}",
+            "AZ": "{amount} {symbol}",
+            "BE": "{amount} {symbol}",
+            "BG": "{amount} {symbol}",
+            "BH": "{amount} {symbol}",
+            "BN": "",
+            "BO": "{symbol} {amount}",
+            "BR": "{symbol} {amount}",
+            "BY": "{amount} {symbol}",
+            "BZ": "",
+            "CA": "{symbol}{amount}",
+            "CH": "{symbol} {amount}",
+            "CL": "{symbol} {amount}",
+            "CN": "{symbol}{amount}",
+            "CO": "{symbol} {amount}",
+            "CR": "{symbol}{amount}",
+            "CZ": "{amount} {symbol}",
+            "DE": "{amount} {symbol}",
+            "DK": "{amount} {symbol}",
+            "DO": "{symbol} {amount}",
+            "DZ": "{amount} {symbol}",
+            "EC": "{symbol} {amount}",
+            "EE": "{amount} {symbol}",
+            "EG": "{symbol} {amount}",
+            "ES": "{amount} {symbol}",
+            "FI": "{amount} {symbol}",
+            "FO": "{symbol} {amount}",
+            "FR": "{amount} {symbol}",
+            "GB": "{symbol}{amount}",
+            "GE": "{amount} {symbol}",
+            "GR": "{amount} {symbol}",
+            "GT": "{symbol}{amount}",
+            "HK": "{symbol}{amount}",
+            "HN": "{symbol} {amount}",
+            "HR": "{amount} {symbol}",
+            "HU": "{amount} {symbol}",
+            "ID": "{symbol} {amount}",
+            "IE": "{symbol} {amount}",
+            "IL": "{symbol}{amount}",
+            "IN": "{symbol} {amount}",
+            "IQ": "{amount} {symbol}",
+            "IR": "{amount} {symbol}",
+            "IS": "{amount} {symbol}",
+            "IT": "{symbol} {amount}",
+            "JM": "{symbol}{amount}",
+            "JO": "{amount} {symbol}",
+            "JP": "{symbol}{amount}",
+            "KE": "{symbol}{amount}",
+            "KG": "{amount} {symbol}",
+            "KR": "{symbol}{amount}",
+            "KW": "{amount} {symbol}",
+            "KZ": "{symbol}{amount}",
+            "LB": "{amount} {symbol}",
+            "LI": "{symbol} {amount}",
+            "LT": "{amount} {symbol}",
+            "LU": "{amount} {symbol}",
+            "LV": "{symbol} {amount}",
+            "LY": "{amount} {symbol}",
+            "MA": "{amount} {symbol}",
+            "MC": "{amount} {symbol}",
+            "MK": "{amount} {symbol}",
+            "MN": "{amount}{symbol}",
+            "MO": "{symbol}{amount}",
+            "MV": "",
+            "MX": "{symbol}{amount}",
+            "MY": "{symbol}{amount}",
+            "NI": "{symbol} {amount}",
+            "NL": "{symbol} {amount}",
+            "NO": "{symbol} {amount}",
+            "NZ": "{symbol}{amount}",
+            "OM": "{amount} {symbol}",
+            "PA": "{symbol} {amount}",
+            "PE": "{symbol} {amount}",
+            "PH": "{symbol}{amount}",
+            "PK": "{symbol}{amount}",
+            "PL": "{amount} {symbol}",
+            "PR": "{symbol} {amount}",
+            "PT": "{amount} {symbol}",
+            "PY": "{symbol} {amount}",
+            "QA": "{amount} {symbol}",
+            "RO": "{amount} {symbol}",
+            "RU": "{amount} {symbol}",
+            "SA": "{amount} {symbol}",
+            "SE": "{amount} {symbol}",
+            "SG": "{symbol}{amount}",
+            "SI": "{amount} {symbol}",
+            "SK": "{amount} {symbol}",
+            "SV": "{symbol}{amount}",
+            "SY": "{amount} {symbol}",
+            "TH": "{symbol}{amount}",
+            "TN": "{amount} {symbol}",
+            "TR": "{amount} {symbol}",
+            "TT": "",
+            "TW": "{symbol}{amount}",
+            "UA": "{amount} {symbol}",
+            "US": "{symbol}{amount}",
+            "UY": "{symbol} {amount}",
+            "UZ": "{amount} {symbol}",
+            "VE": "{symbol} {amount}",
+            "VN": "{amount} {symbol}",
+            "YE": "{amount} {symbol}",
+            "ZA": "{symbol} {amount}",
+            "ZW": ""
+        }
+    }
+}

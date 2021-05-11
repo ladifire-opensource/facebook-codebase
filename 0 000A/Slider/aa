@@ -1,0 +1,86 @@
+__d("LWICometBudgetSliderWrapper.react", ["fbt", "ix", "CometDeferredPopoverTrigger.react", "CometRelay", "LWICometBudgetSlider.react", "LWICometBudgetSliderWrapper_options.graphql", "LWIOmniText.react", "TetraContextRow.react", "TetraIcon.react", "fbicon", "react", "requireDeferred", "useLWILogBudgetRecommendationAndLogClickTooltip"], (function(a, b, c, d, e, f, g, h) {
+	"use strict";
+	e.exports = a;
+	var i, j, k = j || b("react"),
+		l = b("requireDeferred")("LWICometBudgetRecommendationPopover.react");
+
+	function a(a) {
+		var c, d, e, f = a.minBudget,
+			j = a.onBudgetChange,
+			m = a.optionsRef;
+		a = a.selectedBudget;
+		m = b("CometRelay").useFragment(i !== void 0 ? i : i = b("LWICometBudgetSliderWrapper_options.graphql"), m);
+		var n = m == null ? void 0 : m.budget_options;
+		n = n && n.map(function(a) {
+			return Number(a.offset_amount)
+		}).filter(function(a) {
+			return f == null ? !0 : a >= f
+		});
+		m = m == null ? void 0 : m.budget_recommendation;
+		c = (m == null ? void 0 : (c = m.budget_recommendation_lower_bound) == null ? void 0 : c.offset_amount) != null ? Number(m == null ? void 0 : (c = m.budget_recommendation_lower_bound) == null ? void 0 : c.offset_amount) : null;
+		d = (m == null ? void 0 : (d = m.budget_recommendation_upper_bound) == null ? void 0 : d.offset_amount) != null ? Number(m == null ? void 0 : (d = m.budget_recommendation_upper_bound) == null ? void 0 : d.offset_amount) : null;
+		var o = b("useLWILogBudgetRecommendationAndLogClickTooltip")({
+			highBudgetRecommendationValue: d,
+			lowBudgetRecommendationValue: c
+		});
+		if (n == null) return null;
+		c != null && d != null && (n.includes(c) || n.push(c), n.includes(d) || n.push(d), n.sort(function(a, b) {
+			return a - b
+		}));
+		e = m == null ? void 0 : (e = m.budget_recommendation_lower_bound) == null ? void 0 : e.formatted_for_lwi;
+		m = m == null ? void 0 : (m = m.budget_recommendation_upper_bound) == null ? void 0 : m.formatted_for_lwi;
+		m = k.jsx("div", {
+			className: "o0qbua1e kkf49tns q9uorilb",
+			children: k.jsx(b("CometDeferredPopoverTrigger.react"), {
+				popoverProps: {
+					highBudgetRecommendationString: m,
+					lowBudgetRecommendationString: e
+				},
+				popoverResource: l,
+				children: function(a, c) {
+					return k.jsx(b("TetraIcon.react"), {
+						"aria-label": g._("More info"),
+						color: "tertiary",
+						icon: b("fbicon")._(h("479175"), 12),
+						onPress: function() {
+							c(), o()
+						},
+						ref: a
+					})
+				}
+			})
+		});
+		return k.jsxs("div", {
+			className: "sj5x9vvc dhix69tm sjgh65i0 wkznzc2l tr9rh885 cbu4d94t j83agx80",
+			children: [c !== null && d !== null && k.jsx(k.Fragment, {
+				children: a >= c && a <= d ? k.jsx("div", {
+					className: "rtmu0sqt o8rfisnq",
+					children: k.jsxs(b("TetraContextRow.react"), {
+						icon: b("fbicon")._(h("498146"), 20),
+						iconColor: "positive",
+						children: [k.jsx(b("LWIOmniText.react"), {
+							type: "body3",
+							children: g._("Your budget is in the recommended range.")
+						}), m]
+					})
+				}) : a < c ? k.jsx("div", {
+					className: "rtmu0sqt o8rfisnq",
+					children: k.jsxs(b("TetraContextRow.react"), {
+						icon: b("fbicon")._(h("502062"), 20),
+						iconColor: "warning",
+						children: [k.jsx(b("LWIOmniText.react"), {
+							type: "body3",
+							children: g._("This ad may not get meaningful results with a budget below the recommended range.")
+						}), m]
+					})
+				}) : null
+			}), k.jsx(b("LWICometBudgetSlider.react"), {
+				budgetOptions: n,
+				highBudgetRecommendation: d,
+				lowBudgetRecommendation: c,
+				onChange: j,
+				selectedBudget: a
+			})]
+		})
+	}
+}), null);

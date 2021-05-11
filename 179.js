@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["8GKcX"]); }
+
+__d("AdsPESelectAdObjectsStoreUtils",["AdsApplicationUtils","requireWeak"],(function(a,b,c,d,e,f){f.shouldUseCreativeStudioStores=a;var g;b("requireWeak")("CrStUIStore",function(a){return g=a});function a(){var a;return b("AdsApplicationUtils").isCreativeStudio()&&!["SPLIT_TEST_CREATION","SPLIT_TEST_LIST","SPLIT_TEST_REPORT"].includes((a=g)==null?void 0:(a=a.getState())==null?void 0:a.activeSection)}}),null);
+__d("MqttUnifiedClientDisconnectFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1744058");c=b("FalcoLoggerInternal").create("mqtt_unified_client_disconnect",a);e.exports=c}),null);

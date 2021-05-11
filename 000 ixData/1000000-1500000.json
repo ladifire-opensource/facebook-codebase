@@ -1,0 +1,611 @@
+{
+    "1002576": {
+        "sprited": 1,
+        "spriteCssClass": "sx_83b257",
+        "spriteMapCssClass": "sp_zGuUwxahCKg",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/iAtKpduMtB4.png",
+        "loggingID": "1002576"
+    },
+    "1014202": {
+        "sprited": 1,
+        "spriteCssClass": "sx_7b8cdb",
+        "spriteMapCssClass": "sp_hhE0Z82rT4w",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/vi_PPZM6SXn.png",
+        "loggingID": "1014202"
+    },
+    "1016786": {
+        "sprited": 1,
+        "spriteCssClass": "sx_93095d",
+        "spriteMapCssClass": "sp_4hXIYODvjQJ",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/phPv2Fr1Eix.png",
+        "loggingID": "1016786"
+    },
+    "1030605": {
+        "sprited": 1,
+        "spriteCssClass": "sx_670cd2",
+        "spriteMapCssClass": "sp_aBUMoRt2zhN",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/ivZEUeXGOCF.png",
+        "loggingID": "1030605"
+    },
+    "1031585": {
+        "sprited": 1,
+        "spriteCssClass": "sx_332824",
+        "spriteMapCssClass": "sp_j-o8QPZPfDc",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/sMYa9xeGE6a.png",
+        "loggingID": "1031585"
+    },
+    "1078816": {
+        "sprited": 1,
+        "spriteCssClass": "sx_3072ce",
+        "spriteMapCssClass": "sp_OGZYV7oL-t2",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yV/r/KfLZ3tT0hNB.png",
+        "loggingID": "1078816"
+    },
+    "1079479": {
+        "sprited": 1,
+        "spriteCssClass": "sx_aaec15",
+        "spriteMapCssClass": "sp_VLqY_BHL97d",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/bPK4Ep1i33T.png",
+        "loggingID": "1079479"
+    },
+    "1086071": {
+        "sprited": 1,
+        "spriteCssClass": "sx_53a899",
+        "spriteMapCssClass": "sp_zGuUwxahCKg",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/iAtKpduMtB4.png",
+        "loggingID": "1086071"
+    },
+    "1087692": {
+        "sprited": 1,
+        "spriteCssClass": "sx_e0304a",
+        "spriteMapCssClass": "sp_6jvQV5zbVSc",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/wYyzpYz03Wq.png",
+        "loggingID": "1087692"
+    },
+    "1087709": {
+        "sprited": 1,
+        "spriteCssClass": "sx_9b226b",
+        "spriteMapCssClass": "sp_OnIufqI5lLm",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/rHKRJQMZlyU.png",
+        "loggingID": "1087709"
+    },
+    "1096148": {
+        "sprited": 1,
+        "spriteCssClass": "sx_2bff38",
+        "spriteMapCssClass": "sp_V_Qb1YNaJFf",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/QnM_RAc9An-.png",
+        "loggingID": "1096148"
+    },
+    "1096150": {
+        "sprited": 1,
+        "spriteCssClass": "sx_6a95d0",
+        "spriteMapCssClass": "sp_V_Qb1YNaJFf",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/QnM_RAc9An-.png",
+        "loggingID": "1096150"
+    },
+    "1096151": {
+        "sprited": 1,
+        "spriteCssClass": "sx_2861eb",
+        "spriteMapCssClass": "sp_V_Qb1YNaJFf",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/QnM_RAc9An-.png",
+        "loggingID": "1096151"
+    },
+    "1096154": {
+        "sprited": 1,
+        "spriteCssClass": "sx_55659b",
+        "spriteMapCssClass": "sp_V_Qb1YNaJFf",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/QnM_RAc9An-.png",
+        "loggingID": "1096154"
+    },
+    "1104209": {
+        "sprited": 1,
+        "spriteCssClass": "sx_970d24",
+        "spriteMapCssClass": "sp_KGzeW2h1Zh5",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/bFZpb9pzGQW.png",
+        "loggingID": "1104209"
+    },
+    "1104387": {
+        "sprited": 1,
+        "spriteCssClass": "sx_f5836c",
+        "spriteMapCssClass": "sp_y-p4ld68lCj",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/ZGpChef63ai.png",
+        "loggingID": "1104387"
+    },
+    "1104390": {
+        "sprited": 1,
+        "spriteCssClass": "sx_16db2c",
+        "spriteMapCssClass": "sp_y-p4ld68lCj",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/ZGpChef63ai.png",
+        "loggingID": "1104390"
+    },
+    "1107405": {
+        "sprited": 1,
+        "spriteCssClass": "sx_d17ec1",
+        "spriteMapCssClass": "sp_WyCGs-MP4wW",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/XJu2VGMFUvO.png",
+        "loggingID": "1107405"
+    },
+    "1108145": {
+        "sprited": 1,
+        "spriteCssClass": "sx_94aba1",
+        "spriteMapCssClass": "sp_6XbeFWkhw-l",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/OkEfAB0uNcw.png",
+        "loggingID": "1108145"
+    },
+    "1108890": {
+        "sprited": 1,
+        "spriteCssClass": "sx_bc242a",
+        "spriteMapCssClass": "sp_QqFTFTtwJng",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/-lG0DLnvD74.png",
+        "loggingID": "1108890"
+    },
+    "1111403": {
+        "sprited": 1,
+        "spriteCssClass": "sx_fc78aa",
+        "spriteMapCssClass": "sp__rzEmzWmk8u",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/_Z__8EAjb3m.png",
+        "loggingID": "1111403"
+    },
+    "1128252": {
+        "sprited": 1,
+        "spriteCssClass": "sx_498505",
+        "spriteMapCssClass": "sp_4hXIYODvjQJ",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/phPv2Fr1Eix.png",
+        "loggingID": "1128252"
+    },
+    "1136831": {
+        "sprited": 1,
+        "spriteCssClass": "sx_8f20dd",
+        "spriteMapCssClass": "sp_f8jV_DG_L5i",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/LHjA7CTeEp0.png",
+        "loggingID": "1136831"
+    },
+    "1146252": {
+        "sprited": 1,
+        "spriteCssClass": "sx_d3f078",
+        "spriteMapCssClass": "sp__rzEmzWmk8u",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/_Z__8EAjb3m.png",
+        "loggingID": "1146252"
+    },
+    "1146260": {
+        "sprited": 1,
+        "spriteCssClass": "sx_c84b76",
+        "spriteMapCssClass": "sp__rzEmzWmk8u",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/_Z__8EAjb3m.png",
+        "loggingID": "1146260"
+    },
+    "1147507": {
+        "sprited": 1,
+        "spriteCssClass": "sx_73456d",
+        "spriteMapCssClass": "sp_XdKkucT-wTs",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/vqOC9GOHw3g.png",
+        "loggingID": "1147507"
+    },
+    "1150514": {
+        "sprited": 1,
+        "spriteCssClass": "sx_10422b",
+        "spriteMapCssClass": "sp_f8jV_DG_L5i",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/LHjA7CTeEp0.png",
+        "loggingID": "1150514"
+    },
+    "1160717": {
+        "sprited": 1,
+        "spriteCssClass": "sx_7facc7",
+        "spriteMapCssClass": "sp_WyCGs-MP4wW",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/XJu2VGMFUvO.png",
+        "loggingID": "1160717"
+    },
+    "1160739": {
+        "sprited": 1,
+        "spriteCssClass": "sx_cf9f8d",
+        "spriteMapCssClass": "sp_KGzeW2h1Zh5",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/bFZpb9pzGQW.png",
+        "loggingID": "1160739"
+    },
+    "1160762": {
+        "sprited": 1,
+        "spriteCssClass": "sx_a8ab46",
+        "spriteMapCssClass": "sp__rzEmzWmk8u",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/_Z__8EAjb3m.png",
+        "loggingID": "1160762"
+    },
+    "1166458": {
+        "sprited": 1,
+        "spriteCssClass": "sx_8d8629",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1166458"
+    },
+    "1210836": {
+        "sprited": 1,
+        "spriteCssClass": "sx_916dff",
+        "spriteMapCssClass": "sp_6k76D5NfyYE",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/XQ4owjMbe5N.png",
+        "loggingID": "1210836"
+    },
+    "1210837": {
+        "sprited": 1,
+        "spriteCssClass": "sx_361683",
+        "spriteMapCssClass": "sp_6k76D5NfyYE",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/XQ4owjMbe5N.png",
+        "loggingID": "1210837"
+    },
+    "1210844": {
+        "sprited": 1,
+        "spriteCssClass": "sx_e6efec",
+        "spriteMapCssClass": "sp_zGuUwxahCKg",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/iAtKpduMtB4.png",
+        "loggingID": "1210844"
+    },
+    "1223965": {
+        "sprited": 1,
+        "spriteCssClass": "sx_24c9c8",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1223965"
+    },
+    "1244061": {
+        "sprited": 1,
+        "spriteCssClass": "sx_3271f7",
+        "spriteMapCssClass": "sp_zGuUwxahCKg",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/iAtKpduMtB4.png",
+        "loggingID": "1244061"
+    },
+    "1250223": {
+        "sprited": 1,
+        "spriteCssClass": "sx_df3f58",
+        "spriteMapCssClass": "sp_j90SZhOH3Tt",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/QuX2VMRuFwV.png",
+        "loggingID": "1250223"
+    },
+    "1250245": {
+        "sprited": 1,
+        "spriteCssClass": "sx_22be09",
+        "spriteMapCssClass": "sp_j90SZhOH3Tt",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/QuX2VMRuFwV.png",
+        "loggingID": "1250245"
+    },
+    "1250633": {
+        "sprited": 1,
+        "spriteCssClass": "sx_e69ea9",
+        "spriteMapCssClass": "sp_5pFdyDmt11K",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/1dKByStXMxM.png",
+        "loggingID": "1250633"
+    },
+    "1250959": {
+        "sprited": 1,
+        "spriteCssClass": "sx_d7516c",
+        "spriteMapCssClass": "sp_VLqY_BHL97d",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/bPK4Ep1i33T.png",
+        "loggingID": "1250959"
+    },
+    "1252034": {
+        "sprited": 1,
+        "spriteCssClass": "sx_41a079",
+        "spriteMapCssClass": "sp_WyCGs-MP4wW",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/XJu2VGMFUvO.png",
+        "loggingID": "1252034"
+    },
+    "1260012": {
+        "sprited": 1,
+        "spriteCssClass": "sx_aff5ed",
+        "spriteMapCssClass": "sp_hhE0Z82rT4w",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/vi_PPZM6SXn.png",
+        "loggingID": "1260012"
+    },
+    "1260648": {
+        "sprited": 1,
+        "spriteCssClass": "sx_816e29",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1260648"
+    },
+    "1260655": {
+        "sprited": 1,
+        "spriteCssClass": "sx_ed6288",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1260655"
+    },
+    "1260661": {
+        "sprited": 1,
+        "spriteCssClass": "sx_af0706",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1260661"
+    },
+    "1260669": {
+        "sprited": 1,
+        "spriteCssClass": "sx_6b8fc7",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1260669"
+    },
+    "1260678": {
+        "sprited": 1,
+        "spriteCssClass": "sx_e5ae1b",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1260678"
+    },
+    "1286623": {
+        "sprited": 1,
+        "spriteCssClass": "sx_888520",
+        "spriteMapCssClass": "sp_OnIufqI5lLm",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/rHKRJQMZlyU.png",
+        "loggingID": "1286623"
+    },
+    "1289193": {
+        "sprited": 1,
+        "spriteCssClass": "sx_9f925a",
+        "spriteMapCssClass": "sp_V_Qb1YNaJFf",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/QnM_RAc9An-.png",
+        "loggingID": "1289193"
+    },
+    "1289629": {
+        "sprited": 1,
+        "spriteCssClass": "sx_124aec",
+        "spriteMapCssClass": "sp_VLqY_BHL97d",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/bPK4Ep1i33T.png",
+        "loggingID": "1289629"
+    },
+    "1292656": {
+        "sprited": 1,
+        "spriteCssClass": "sx_e5fee9",
+        "spriteMapCssClass": "sp_hhE0Z82rT4w",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/vi_PPZM6SXn.png",
+        "loggingID": "1292656"
+    },
+    "1327475": {
+        "sprited": 1,
+        "spriteCssClass": "sx_43d894",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1327475"
+    },
+    "1334173": {
+        "sprited": 1,
+        "spriteCssClass": "sx_788ef2",
+        "spriteMapCssClass": "sp_6XbeFWkhw-l",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/OkEfAB0uNcw.png",
+        "loggingID": "1334173"
+    },
+    "1342088": {
+        "sprited": 1,
+        "spriteCssClass": "sx_859dea",
+        "spriteMapCssClass": "sp_y-p4ld68lCj",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/ZGpChef63ai.png",
+        "loggingID": "1342088"
+    },
+    "1347196": {
+        "sprited": 1,
+        "spriteCssClass": "sx_2f4dfe",
+        "spriteMapCssClass": "sp_xDOZCVpYiuV",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/QWYC4LZLANF.png",
+        "loggingID": "1347196"
+    },
+    "1347197": {
+        "sprited": 1,
+        "spriteCssClass": "sx_d5e18c",
+        "spriteMapCssClass": "sp_hhE0Z82rT4w",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/vi_PPZM6SXn.png",
+        "loggingID": "1347197"
+    },
+    "1350233": {
+        "sprited": 1,
+        "spriteCssClass": "sx_bac6a4",
+        "spriteMapCssClass": "sp_KGzeW2h1Zh5",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/bFZpb9pzGQW.png",
+        "loggingID": "1350233"
+    },
+    "1351092": {
+        "sprited": 1,
+        "spriteCssClass": "sx_6c0967",
+        "spriteMapCssClass": "sp_KGzeW2h1Zh5",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/bFZpb9pzGQW.png",
+        "loggingID": "1351092"
+    },
+    "1351646": {
+        "sprited": 1,
+        "spriteCssClass": "sx_e3d26f",
+        "spriteMapCssClass": "sp_4hXIYODvjQJ",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/phPv2Fr1Eix.png",
+        "loggingID": "1351646"
+    },
+    "1372627": {
+        "sprited": 1,
+        "spriteCssClass": "sx_c74d58",
+        "spriteMapCssClass": "sp_4hXIYODvjQJ",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/phPv2Fr1Eix.png",
+        "loggingID": "1372627"
+    },
+    "1380693": {
+        "sprited": 1,
+        "spriteCssClass": "sx_51a9d1",
+        "spriteMapCssClass": "sp_Er2Trf84pie",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/x4uUed8CuGV.png",
+        "loggingID": "1380693"
+    },
+    "1380695": {
+        "sprited": 1,
+        "spriteCssClass": "sx_17a79a",
+        "spriteMapCssClass": "sp_Er2Trf84pie",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/x4uUed8CuGV.png",
+        "loggingID": "1380695"
+    },
+    "1380723": {
+        "sprited": 1,
+        "spriteCssClass": "sx_67fca2",
+        "spriteMapCssClass": "sp_Ve68A02uU--",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/KPf30tmZZI4.png",
+        "loggingID": "1380723"
+    },
+    "1383158": {
+        "sprited": 1,
+        "spriteCssClass": "sx_480b40",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1383158"
+    },
+    "1384648": {
+        "sprited": 1,
+        "spriteCssClass": "sx_8b1ca8",
+        "spriteMapCssClass": "sp_n1AzdVypLir",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/Lz4xzAnmjhr.png",
+        "loggingID": "1384648"
+    },
+    "1388374": {
+        "sprited": 1,
+        "spriteCssClass": "sx_3324d2",
+        "spriteMapCssClass": "sp_6Ael7JSWNb_",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/Fq52057LBXi.png",
+        "loggingID": "1388374"
+    },
+    "1394933": {
+        "sprited": 1,
+        "spriteCssClass": "sx_903b63",
+        "spriteMapCssClass": "sp_IYlqFhxzAdl",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/EO1ss3ZHvcD.png",
+        "loggingID": "1394933"
+    },
+    "1394934": {
+        "sprited": 1,
+        "spriteCssClass": "sx_2fa618",
+        "spriteMapCssClass": "sp_IYlqFhxzAdl",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/EO1ss3ZHvcD.png",
+        "loggingID": "1394934"
+    },
+    "1395467": {
+        "sprited": 1,
+        "spriteCssClass": "sx_3d2f6a",
+        "spriteMapCssClass": "sp_VLqY_BHL97d",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/bPK4Ep1i33T.png",
+        "loggingID": "1395467"
+    },
+    "1396214": {
+        "sprited": 1,
+        "spriteCssClass": "sx_a367e6",
+        "spriteMapCssClass": "sp_j90SZhOH3Tt",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/QuX2VMRuFwV.png",
+        "loggingID": "1396214"
+    },
+    "1396833": {
+        "sprited": 1,
+        "spriteCssClass": "sx_c9acc0",
+        "spriteMapCssClass": "sp_j90SZhOH3Tt",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/QuX2VMRuFwV.png",
+        "loggingID": "1396833"
+    },
+    "1399376": {
+        "sprited": 1,
+        "spriteCssClass": "sx_40fa81",
+        "spriteMapCssClass": "sp_6k76D5NfyYE",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/XQ4owjMbe5N.png",
+        "loggingID": "1399376"
+    },
+    "1400406": {
+        "sprited": 1,
+        "spriteCssClass": "sx_d2f35d",
+        "spriteMapCssClass": "sp_ZCQu1dd1pXY",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/ohVpJqWdVUQ.png",
+        "loggingID": "1400406"
+    },
+    "1404277": {
+        "sprited": 1,
+        "spriteCssClass": "sx_c64fc4",
+        "spriteMapCssClass": "sp_6k76D5NfyYE",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/XQ4owjMbe5N.png",
+        "loggingID": "1404277"
+    },
+    "1414201": {
+        "sprited": 1,
+        "spriteCssClass": "sx_4f89dd",
+        "spriteMapCssClass": "sp_y-p4ld68lCj",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/ZGpChef63ai.png",
+        "loggingID": "1414201"
+    },
+    "1417073": {
+        "sprited": 1,
+        "spriteCssClass": "sx_396daf",
+        "spriteMapCssClass": "sp_f8jV_DG_L5i",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/LHjA7CTeEp0.png",
+        "loggingID": "1417073"
+    },
+    "1421117": {
+        "sprited": 1,
+        "spriteCssClass": "sx_c35314",
+        "spriteMapCssClass": "sp_V_Qb1YNaJFf",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/QnM_RAc9An-.png",
+        "loggingID": "1421117"
+    },
+    "1421119": {
+        "sprited": 1,
+        "spriteCssClass": "sx_440fd8",
+        "spriteMapCssClass": "sp_V_Qb1YNaJFf",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/QnM_RAc9An-.png",
+        "loggingID": "1421119"
+    },
+    "1429721": {
+        "sprited": 1,
+        "spriteCssClass": "sx_3d56ef",
+        "spriteMapCssClass": "sp_aBUMoRt2zhN",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/ivZEUeXGOCF.png",
+        "loggingID": "1429721"
+    },
+    "1444918": {
+        "sprited": 1,
+        "spriteCssClass": "sx_a6180d",
+        "spriteMapCssClass": "sp_xDOZCVpYiuV",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/QWYC4LZLANF.png",
+        "loggingID": "1444918"
+    },
+    "1444920": {
+        "sprited": 1,
+        "spriteCssClass": "sx_70a7f9",
+        "spriteMapCssClass": "sp_hhE0Z82rT4w",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/vi_PPZM6SXn.png",
+        "loggingID": "1444920"
+    },
+    "1447587": {
+        "sprited": 1,
+        "spriteCssClass": "sx_a6d1f7",
+        "spriteMapCssClass": "sp_hhE0Z82rT4w",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/vi_PPZM6SXn.png",
+        "loggingID": "1447587"
+    },
+    "1452590": {
+        "sprited": 1,
+        "spriteCssClass": "sx_21f72d",
+        "spriteMapCssClass": "sp_2rSn40arMAr",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/Gi7yksSnfLY.png",
+        "loggingID": "1452590"
+    },
+    "1460107": {
+        "sprited": 1,
+        "spriteCssClass": "sx_63fece",
+        "spriteMapCssClass": "sp_6k76D5NfyYE",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/XQ4owjMbe5N.png",
+        "loggingID": "1460107"
+    },
+    "1475177": {
+        "sprited": 1,
+        "spriteCssClass": "sx_2b3eb0",
+        "spriteMapCssClass": "sp_hhE0Z82rT4w",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/vi_PPZM6SXn.png",
+        "loggingID": "1475177"
+    },
+    "1495001": {
+        "sprited": 1,
+        "spriteCssClass": "sx_ff23ba",
+        "spriteMapCssClass": "sp_KGzeW2h1Zh5",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/bFZpb9pzGQW.png",
+        "loggingID": "1495001"
+    },
+    "1495236": {
+        "sprited": 1,
+        "spriteCssClass": "sx_5d61eb",
+        "spriteMapCssClass": "sp_VLqY_BHL97d",
+        "_spi": "https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/bPK4Ep1i33T.png",
+        "loggingID": "1495236"
+    }
+}

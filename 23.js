@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Yyjko"]); }
+
+__d("FalcoBladeRunnerTransport",[],(function(a,b,c,d,e,f){"use strict";function g(a){return JSON.stringify(a)}function h(a){a={name:a.name,extra:a.extra,rate:a.rate,time:a.time/1e3};return{events:[a]}}a=function(){function a(a,b){var c=this;this.$1=a;b.start(function(a){c.$2(a)})}var b=a.prototype;b.$2=function(a){};b.log=function(a){this.$1.amendFireAndForget(g(h(a)))};b.logImmediately=function(a){this.log(a)};b.logCritical=function(a){this.log(a)};return a}();e.exports=a}),null);

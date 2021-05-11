@@ -1,0 +1,57 @@
+__d("SpectrumStyle", [], (function(a, b, c, d, e, f) {
+	a = {
+		BLUE_HOVER: "rgba(113, 137, 174, 0.3)",
+		BLUE: "#B1BDD6",
+		BLUE2: "#899BC1",
+		BLUE3: "#95A5D0",
+		BLUE4: "#3C6399",
+		BLUE_BRUSH: "rgba(58, 96, 149, 0.08)",
+		BRIGHT_BLUE: "#5890FF",
+		BOLD_BLUE: "#627AAD",
+		DARK_BLUE: "#23355B",
+		FB_BLUE: "#3B5998",
+		LIGHT_BLUE: "#C5CEE0",
+		LIGHT_BLUE2: "#9DACCB",
+		LIGHT_BLUE3: "#D7DAE7",
+		LAVENDER: "#9C7AB3",
+		TROUT: "#4E5665",
+		CASPER: "#ABB7CF",
+		COBALT: "#9DACCB",
+		COBALT2: "#758AB7",
+		COBALT3: "#7F96C7",
+		GRAY: "#ADB3BC",
+		LIGHT_GRAY: "#E5E5E5",
+		MAUVE: "#D094AB",
+		MAUVE2: "#DEB5C5",
+		ORANGE: "#F79600",
+		ORANGE_BRUSH: "rgba(242, 100, 52, 0.14)",
+		LIGHT_ORANGE: "#FFCA87",
+		PINK: "#DE8585",
+		DEEP_PURPLE: "#705781",
+		PURPLE: "#BC7F96",
+		PURPLE2: "#B7758F",
+		PURPLE3: "#925E73",
+		PURPLE4: "#98677D",
+		PURPLE5: "#B36D88",
+		PURPLE6: "#B194C2",
+		LIGHT_GREEN: "#F0EEC4",
+		DARK_RED: "#D44040",
+		SALMON: "#DA7878",
+		BROWN: "#892A2A",
+		BEIGE: "#C9B4A0",
+		DUCKEGG: "#BFDBC6",
+		TAN: "#E8C595",
+		VIOLET: "#865EA1",
+		FONT_FAMILY: ["'helvetica neue'", "helvetica", "arial", "'lucida grande'", "tahoma", "verdana", "sans-serif"].join(","),
+		FONT_SIZE_TINY: 10,
+		FONT_SIZE_SMALL: 12,
+		BREAKDOWN_COLORS: [],
+		BUTTERFLY_COLORS: [],
+		BUTTERFLY_LABEL: ""
+	};
+	a.BREAKDOWN_COLORS = [a.COBALT3, a.LIGHT_BLUE3, a.PURPLE6, a.LIGHT_GREEN, a.CASPER, a.TAN, a.DUCKEGG, a.GRAY, a.MAUVE, a.BEIGE];
+	a.BUTTERFLY_COLORS = [a.LIGHT_GRAY, a.BLUE2, a.LIGHT_GRAY, a.BLUE4];
+	a.BUTTERFLY_LABEL = a.TROUT;
+	b = a;
+	e.exports = b
+}), null);

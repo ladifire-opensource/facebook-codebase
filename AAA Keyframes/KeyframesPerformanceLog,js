@@ -1,0 +1,57 @@
+__d("KeyframesPerformanceLog", ["performanceNow"], (function(a, b, c, d, e, f) {
+	"use strict";
+	var g, h = 60;
+	a = function() {
+		function a(a, b) {
+			this.$1 = 0, this.$2 = -1, this.$3 = -1, this.$6 = a, this.$5 = b, this.$6 = a, this.reset()
+		}
+		var c = a.prototype;
+		c.onNextFrame = function(a) {
+			this.$7 = a
+		};
+		c.start = function() {
+			if (this.$2 < 0 || this.$3 >= 0) {
+				var a = (g || (g = b("performanceNow")))();
+				this.$2 < 0 ? this.$2 = a : this.$3 >= 0 && (this.$2 += a - this.$3, this.$3 = -1);
+				this.$5 && this.$5("start")
+			}
+		};
+		c.pause = function() {
+			this.$3 < 0 && this.$2 >= 0 && (this.$3 = (g || (g = b("performanceNow")))(), this.$5 && this.$5("pause"))
+		};
+		c.reset = function() {
+			this.$1 = 0, this.$4 = {
+				one: 0,
+				two: 0,
+				four: 0,
+				eight: 0
+			}, this.$3 = -1, this.$2 = -1
+		};
+		c.addFrame = function() {
+			this.$1 += 1, this.$7 && (this.$7(), this.$7 = null)
+		};
+		c.addFrameDrop = function(a) {
+			a >= 8 ? this.$4.eight += 1 : a >= 4 ? this.$4.four += 1 : a >= 2 ? this.$4.two += 1 : a >= 1 && (this.$4.one += 1)
+		};
+		c.finish = function() {
+			if (this.$2 >= 0) {
+				var a = (g || (g = b("performanceNow")))(),
+					c = this.$3 >= 0 ? a - this.$3 : 0;
+				a = Math.max(Math.floor(a - this.$2 - c), 1);
+				c = this.$1 ? this.$1 / a * 1e3 : h;
+				this.$6({
+					animation_duration: a,
+					display_refresh_rate: h,
+					eight_frame_drop_count: this.$4.eight,
+					four_frame_drop_count: this.$4.four,
+					frame_rate: c,
+					one_frame_drop_count: this.$4.one,
+					two_frame_drop_count: this.$4.two
+				});
+				this.reset()
+			}
+		};
+		return a
+	}();
+	e.exports = a
+}), null);

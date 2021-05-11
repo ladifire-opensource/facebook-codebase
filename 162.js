@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["1xJMi"]); }
+
+__d("BusinessInboxInboxRootInitRenderFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743217");c=b("FalcoLoggerInternal").create("business_inbox_inbox_root_init_render",a);e.exports=c}),null);
+__d("BusinessInboxStatusToggleClickFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743245");c=b("FalcoLoggerInternal").create("business_inbox_status_toggle_click",a);e.exports=c}),null);
+__d("CommerceManagerUiFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743405");c=b("FalcoLoggerInternal").create("commerce_manager_ui",a);e.exports=c}),null);

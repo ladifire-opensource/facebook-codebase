@@ -1,0 +1,155 @@
+__d("MWChatTabContentNew.bs", ["bs_curry", "React", "MWTheme.bs", "stylex", "bs_caml_option", "MWChatComposer.bs", "MWUIThreadEmoji.bs", "MWChatTabContent.bs", "MWChatUserComposer.bs", "MWUIChatContextBanner.bs", "MWUILoadThreadPicture.bs", "MWChatThread_DEPRECATED.bs", "MWChatComposerMediaDropTarget.bs", "MWChatComposerMessageRequestInfoText.bs"], (function(a, b, c, d, e, f) {
+	"use strict";
+	var g, h = b("React");
+
+	function i(a) {
+		var c = a.id,
+			d = a.contextBannerData,
+			e = a.items,
+			f = a.dispatch,
+			i = a.closeTab,
+			j = a.otherUserFbid,
+			k = a.customLikeEmoji,
+			l = a.isTabFocused,
+			m = a.hasContent,
+			n = a.repliedToMessage,
+			o = a.buildSharedMediaViewerURL,
+			p = a.closeReplyPreview,
+			q = a.onSendMessage;
+		a = a.isOptimisticThread;
+		var r = a !== void 0 ? a : !1,
+			s = b("MWTheme.bs").useTheme(void 0);
+		a = h.useRef(0);
+		var t = h.useState(function() {
+				return !1
+			}),
+			u = t[1],
+			v = t[0];
+		t = h.useRef(null);
+		var w = h.useRef(null),
+			x = h.useRef(null),
+			y;
+		y = s.TAG ? {
+			backgroundImage: b("MWTheme.bs").gradient(void 0, void 0, s._0.colors)
+		} : void 0;
+		e = {
+			children: h.jsx(b("MWChatThread_DEPRECATED.bs").make, {
+				id: c,
+				items: e,
+				isScrolledToBottomRef: a,
+				dispatch: f,
+				contextBannerData: d,
+				welcomePageData: void 0,
+				spacerRef: w,
+				scrollerRef: t,
+				buildSharedMediaViewerURL: o
+			}),
+			className: (g || (g = b("stylex")))(b("MWChatTabContent.bs").styles.thread)
+		};
+		y !== void 0 && (e.style = b("bs_caml_option").valFromOption(y));
+		return h.jsx(h.Fragment, {
+			children: h.jsx("div", {
+				children: h.jsxs(b("MWChatComposerMediaDropTarget.bs").make, {
+					children: [h.jsx("div", e), h.jsx("div", {
+						children: h.jsx(b("MWChatUserComposer.bs").make, {
+							threadId: c,
+							chatComposer: function(a) {
+								return h.jsx(b("MWChatComposer.bs").make, {
+									color: b("MWTheme.bs").bottom(s),
+									otherUserFbid: j,
+									isPreviewThread: !0,
+									isOptimisticThread: r,
+									customLikeEmoji: k,
+									isTabFocused: l,
+									shouldShowMenu: !1,
+									hasContent: m,
+									repliedToMessage: n,
+									actionTrayOpen: v,
+									closeActionTray: function(a) {
+										return b("bs_curry")._1(u, function(a) {
+											return !1
+										})
+									},
+									openActionTray: function(a) {
+										return b("bs_curry")._1(u, function(a) {
+											return !0
+										})
+									},
+									fileUploadHandlerRef: x,
+									messageRequestInfoText: h.jsx(b("MWChatComposerMessageRequestInfoText.bs").make, {
+										closeTab: function(a) {},
+										size: "large"
+									}),
+									closeReplyPreview: p,
+									openTabFromPreview: function(a) {
+										return f("OpenTabFromPreview")
+									},
+									closeTab: i,
+									onSendMessage: q
+								})
+							}
+						}),
+						className: g(b("MWChatTabContent.bs").styles.composer)
+					})],
+					disabled: !1,
+					fileUploadHandler: b("bs_caml_option").nullable_to_opt(x.current),
+					xstyle: b("MWChatTabContent.bs").styles.dropTarget
+				}),
+				className: g(b("MWChatTabContent.bs").styles.main)
+			})
+		})
+	}
+	c = {
+		make: i
+	};
+
+	function a(a) {
+		var c = a.id,
+			d = a.isTabFocused,
+			e = a.dispatch,
+			f = a.closeTab,
+			g = a.messages,
+			j = a.hasContent,
+			k = a.changeRepliedToMessage,
+			l = a.repliedToMessage,
+			m = a.buildSharedMediaViewerURL,
+			n = a.closeReplyPreview,
+			o = a.onSendMessage;
+		a = a.isOptimisticThread;
+		a = a !== void 0 ? a : !1;
+		var p = b("bs_curry")._1(b("MWUILoadThreadPicture.bs").useHook, void 0);
+		p = b("bs_curry")._4(b("MWUIChatContextBanner.bs").useContextBanner, c, p, !0, void 0);
+		var q;
+		if (typeof c === "string") q = void 0;
+		else {
+			var r = c.NAME;
+			q = r === "User" || r === "Page" ? b("bs_caml_option").some(c.VAL) : void 0
+		}
+		r = b("bs_curry")._1(b("MWUIThreadEmoji.bs").useEmoji, void 0);
+		var s = function(a) {
+			if (typeof a === "string" || a.NAME !== "ClickReplyTo") return e(a);
+			else return b("bs_curry")._1(k, a.VAL)
+		};
+		return h.jsx(i, {
+			id: c,
+			contextBannerData: p,
+			items: g,
+			dispatch: s,
+			closeTab: f,
+			otherUserFbid: q,
+			customLikeEmoji: r,
+			isTabFocused: d,
+			hasContent: j,
+			repliedToMessage: l,
+			buildSharedMediaViewerURL: m,
+			closeReplyPreview: n,
+			onSendMessage: o,
+			isOptimisticThread: a
+		})
+	}
+	d = b("MWChatTabContent.bs").styles;
+	e = a;
+	f.styles = d;
+	f.Inner = c;
+	f.make = e
+}), null);
